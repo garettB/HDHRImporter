@@ -1,0 +1,2700 @@
+[
+  {
+    "GuideNumber": "2.1",
+    "GuideName": "WGRZDT",
+    "Affiliate": "NBC",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/28717/s28717_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Daily Blast Live",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14400309_b_h3_aa.jpg",
+        "SeriesID": "C14400309ENHRMM",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505872860,
+        "Title": "America's Got Talent",
+        "EpisodeNumber": "S12E23",
+        "EpisodeTitle": "Live Show Finale",
+        "Synopsis": "The top 10 acts compete one final time.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13949024_b_h3_aa.jpg",
+        "SeriesID": "C187477EN5KRA",
+        "Filter": [
+          "Comedy"
+        ]
+      },
+      {
+        "StartTime": 1505872860,
+        "EndTime": 1505876400,
+        "Title": "The Paley Center Salutes the Best of Will & Grace",
+        "Synopsis": "Honoring the series' original eight-season run; interviews with actors Debra Messing, Eric McCormack, Sean Hayes and Megan Mullally, creators Max Mutchnick and David Kohan, and director James Burrows; never-before-seen behind-the-scenes footage.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14502648_b_h3_aa.jpg",
+        "SeriesID": "C14502648ENDZQ4"
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878440,
+        "Title": "Channel 2 News",
+        "OriginalAirdate": 935884800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p617485_b_h3_aa.jpg",
+        "SeriesID": "C617485ENJHYU",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878440,
+        "EndTime": 1505882220,
+        "Title": "The Tonight Show Starring Jimmy Fallon",
+        "EpisodeNumber": "S04E205",
+        "EpisodeTitle": "Kevin James; Ilana Glazer; Rudimental; James Arthur",
+        "Synopsis": "Actor Kevin James; actress Ilana Glazer; Rudimental performs with James Arthur.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13266648_b_h3_aa.jpg",
+        "SeriesID": "C9898935ENZGMN",
+        "Filter": [
+          "Comedy"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "2.2",
+    "GuideName": "WGRZDT2",
+    "Affiliate": "ANTENNA",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/70248/s70248_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "227",
+        "EpisodeNumber": "S05E10",
+        "EpisodeTitle": "The Perfume Game",
+        "Synopsis": "Sandra comes up with a slogan for a new perfume but gets upset when her boss steals her idea.",
+        "OriginalAirdate": 628560000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p319634_b_h3_ac.jpg",
+        "SeriesID": "C319634ENY8XP"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "Sanford & Son",
+        "EpisodeNumber": "S04E07",
+        "EpisodeTitle": "Home Sweet Home",
+        "Synopsis": "Fred holds out for more money when a Japanese land development company offers to buy his house.",
+        "OriginalAirdate": 151891200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184079_b_h3_ad.jpg",
+        "SeriesID": "C184079ENNAXJ"
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "Good Times",
+        "EpisodeNumber": "S02E10",
+        "EpisodeTitle": "The Gang",
+        "Synopsis": "James is determined to press charges in court after J.J. receives a flesh wound in a gang war.",
+        "OriginalAirdate": 154051200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184522_b_h3_ab.jpg",
+        "SeriesID": "C184522ENKXYR"
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "UB Insider",
+        "OriginalAirdate": 1472256000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13061810_st_h3_aa.jpg",
+        "SeriesID": "C13061810ENHDP5"
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "All in the Family",
+        "EpisodeNumber": "S03E21",
+        "EpisodeTitle": "Everybody Tells the Truth",
+        "Synopsis": "Archie, Edith and Mike tell Gloria three different versions of the story of a refrigerator repairman's visit.",
+        "OriginalAirdate": 99964800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183949_b_h3_aa.jpg",
+        "SeriesID": "C183949EN6QLX"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Johnny Carson",
+        "Synopsis": "Actor Bob Newhart; actor Anthony Quinn; actress Julie Lynne Hayek.",
+        "OriginalAirdate": 422064000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p8659340_b_h3_aa.jpg",
+        "SeriesID": "C8659340ENJJ5F",
+        "Filter": [
+          "Comedy"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "Newhart",
+        "EpisodeNumber": "S01E03",
+        "EpisodeTitle": "Hail to the Councilman",
+        "Synopsis": "Dick considers getting into politics when two city officials tell him to run for town council.",
+        "OriginalAirdate": 405561600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184384_b_h3_ac.jpg",
+        "SeriesID": "C184384ENQ7FF"
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "Family Ties",
+        "EpisodeNumber": "S03E23",
+        "EpisodeTitle": "Remembrances of Things Past",
+        "Synopsis": "Steven and his brother try to settle their differences after their father passes.",
+        "OriginalAirdate": 480816000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184019_b_h3_aa.jpg",
+        "SeriesID": "C184019ENZ7F7"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "2.3",
+    "GuideName": "WGRZDT3",
+    "Affiliate": "Justice Network",
+    "Guide": [
+      {
+        "StartTime": 1505862000,
+        "EndTime": 1505865600,
+        "Title": "Cold Case Files",
+        "EpisodeNumber": "S03E10",
+        "EpisodeTitle": "Death Before I Do; Hollywood Homicide",
+        "Synopsis": "A mysterious woman calls police to say that her boyfriend is a killer; 1988 murder of actress Myra Davis.",
+        "OriginalAirdate": 983750400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p186106_b_h3_aa.jpg",
+        "SeriesID": "C186106ENUFGW"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "Dr. G: Medical Examiner",
+        "EpisodeNumber": "S04E06",
+        "EpisodeTitle": "Deadly Doses",
+        "Synopsis": "Woman itches all over her body then dies.",
+        "OriginalAirdate": 1211500800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185929_b_h3_aa.jpg",
+        "SeriesID": "C185929ENUV0Y"
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872800,
+        "Title": "Handsome Devils",
+        "EpisodeNumber": "S01E07",
+        "EpisodeTitle": "The Navy Seal Pastor",
+        "Synopsis": "A pastor's congregation rallies around him when his wife dies in an accident, but his murky past suggests there is more to his wife's accident.",
+        "OriginalAirdate": 1408579200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10822026_b_h3_aa.jpg",
+        "SeriesID": "C10822026ENHSU4"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Missing Persons",
+        "OriginalAirdate": 746668800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p443647_b_h3_aa.jpg",
+        "SeriesID": "C443647ENXHWL",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505880000,
+        "Title": "Alaska State Troopers",
+        "EpisodeNumber": "S03E07",
+        "EpisodeTitle": "Moose; Man Hunt",
+        "Synopsis": "A night operation on a remote island to remove a squatter on private property; investigating an illegal moose kill.",
+        "OriginalAirdate": 1325980800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p7828643_b_h3_ac.jpg",
+        "SeriesID": "C7828643ENTGOB"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "4.1",
+    "GuideName": "WIVBDT",
+    "Affiliate": "CBS",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/28711/s28711_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Jeopardy!",
+        "EpisodeNumber": "S34E07",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184056_b_h3_al.jpg",
+        "SeriesID": "C184056EN6FJY"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "NCIS",
+        "EpisodeNumber": "S14E24",
+        "EpisodeTitle": "Rendezvous",
+        "Synopsis": "Gibbs, McGee and Torres travel to an area of Paraguay controlled by a group of violent rebels in an attempt to locate a missing Navy SEAL who disappeared during an unsanctioned trip.",
+        "OriginalAirdate": 1494892800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13012397_b_h3_aa.jpg",
+        "SeriesID": "C184930ENXE70",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872800,
+        "Title": "Bull",
+        "EpisodeNumber": "S01E23",
+        "EpisodeTitle": "Benevolent Deception",
+        "Synopsis": "Bull and the team travel to Miami with J.P. Nunnelly to work on a controversial drug trafficking case in which both the clients' and the jurors' lives are in danger.",
+        "OriginalAirdate": 1495497600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p12909993_b_h3_ac.jpg",
+        "SeriesID": "C12909993EN5P8Z",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "NCIS: New Orleans",
+        "EpisodeNumber": "S03E24",
+        "EpisodeTitle": "Poetic Justice",
+        "Synopsis": "Unable to trust anyone in New Orleans, the NCIS team calls in FBI Assistant Director Isler to help expose and stop Mayor Hamilton's sinister scheme.",
+        "OriginalAirdate": 1494892800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10779088_b_h3_an.jpg",
+        "SeriesID": "C10779088ENYYTR",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878500,
+        "Title": "News 4 at 11",
+        "OriginalAirdate": 1036972800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p825959_b_h3_aa.jpg",
+        "SeriesID": "C825959ENLGM3",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878500,
+        "EndTime": 1505882220,
+        "Title": "The Late Show With Stephen Colbert",
+        "EpisodeNumber": "S03E06",
+        "EpisodeTitle": "Hillary Clinton; Emma Stone",
+        "Synopsis": "Former Secretary of State Hillary Clinton; actress Emma Stone.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10703384_b_h3_ac.jpg",
+        "SeriesID": "C10703384ENCZSN"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "5.1",
+    "GuideName": "CBLT",
+    "Affiliate": "CBC",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/10084/s10084_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Coronation Street",
+        "Synopsis": "Faye calls Seb; Rita tells Norris that she's been forgetting things; the police bring sniffer dogs to the bistro.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183997_b_h3_ad.jpg",
+        "SeriesID": "C183997ENP1KQ",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "Just for Laughs",
+        "EpisodeTitle": "Rick Mercer: Raise a Little Hell",
+        "Synopsis": "Rick Mercer and guests W. Kamau Bell, Arthur Simeon and Tom Papa perform.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p414466_b_h3_aa.jpg",
+        "SeriesID": "C414466EN124J",
+        "Filter": [
+          "Comedy"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "Kim's Convenience",
+        "EpisodeNumber": "S01E12",
+        "EpisodeTitle": "Appa's Lump",
+        "Synopsis": "Mr. Kim finds a lump on his back; Shannon brings Jung to a work event.",
+        "OriginalAirdate": 1482796800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13224572_b_h3_aa.jpg",
+        "SeriesID": "C13224572ENHCC0"
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "Kim's Convenience",
+        "EpisodeNumber": "S01E13",
+        "EpisodeTitle": "Family Singing Contest",
+        "Synopsis": "Before Janet can reveal her big news, she must survive the family singing festival at church; Mr. Kim gets attention for his new SUV.",
+        "OriginalAirdate": 1482796800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13224572_b_h3_aa.jpg",
+        "SeriesID": "C13224572ENHCC0"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "The National",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p191966_b_h3_ac.jpg",
+        "SeriesID": "C191966ENPOGC",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "CBC Toronto News at 11",
+        "OriginalAirdate": 1454198400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p12567799_b_h3_aa.jpg",
+        "SeriesID": "C12567799ENOOCS",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "Coronation Street",
+        "Synopsis": "Faye calls Seb; Rita tells Norris that she's been forgetting things; the police bring sniffer dogs to the bistro.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183997_b_h3_ad.jpg",
+        "SeriesID": "C183997ENP1KQ",
+        "Filter": [
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "6.1",
+    "GuideName": "CIIIDT6",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/73010/s73010_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Entertainment Tonight Canada",
+        "Synopsis": "TV personality Yolanda Hadid discusses her latest book inside her New York City home; actress Sarah Gadon discusses the TV series \"Alias Grace.\"",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185821_b_h3_ad.jpg",
+        "SeriesID": "C185821ENJF1T"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505872800,
+        "Title": "R.I.P.D.",
+        "Synopsis": "Veteran lawman Roy Pulsifer (Jeff Bridges) works for the R.I.P.D., a legendary police force charged with finding monstrous spirits who are disguised as ordinary people but are trying to avoid their final judgment by hiding out among the living. When Roy and his new partner, Nick Walker (Ryan Reynolds), uncover a plot that could end all life, they must discover a way to restore the cosmic balance or else watch the tunnel to the afterlife start sending angry souls back to the world of th (1.5/4.0)",
+        "OriginalAirdate": 1379635200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9672434_v_h9_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p9672434_v_v5_af.jpg",
+        "SeriesID": "MV004509820000",
+        "Filter": [
+          "Movies",
+          "Comedy"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Somewhere Between",
+        "EpisodeNumber": "S01E10",
+        "EpisodeTitle": "One Must Die",
+        "Synopsis": "As Laura and Nico discover the reason for the vast conspiracy, they race against the clock to save Serena and Danny.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14045969_b_h3_aa.jpg",
+        "SeriesID": "C14045969ENBKRY",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878500,
+        "Title": "Global News at 11",
+        "OriginalAirdate": 1330473600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9123089_b_h3_aa.jpg",
+        "SeriesID": "C9123089ENXFUM",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878500,
+        "EndTime": 1505882220,
+        "Title": "The Late Show With Stephen Colbert",
+        "EpisodeNumber": "S03E06",
+        "EpisodeTitle": "Hillary Clinton; Emma Stone",
+        "Synopsis": "Former Secretary of State Hillary Clinton; actress Emma Stone.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10703384_b_h3_ac.jpg",
+        "SeriesID": "C10703384ENCZSN"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "6.2",
+    "GuideName": "CIII",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/10130/s10130_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Entertainment Tonight Canada",
+        "Synopsis": "TV personality Yolanda Hadid discusses her latest book inside her New York City home; actress Sarah Gadon discusses the TV series \"Alias Grace.\"",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185821_b_h3_ad.jpg",
+        "SeriesID": "C185821ENJF1T"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505872800,
+        "Title": "R.I.P.D.",
+        "Synopsis": "Veteran lawman Roy Pulsifer (Jeff Bridges) works for the R.I.P.D., a legendary police force charged with finding monstrous spirits who are disguised as ordinary people but are trying to avoid their final judgment by hiding out among the living. When Roy and his new partner, Nick Walker (Ryan Reynolds), uncover a plot that could end all life, they must discover a way to restore the cosmic balance or else watch the tunnel to the afterlife start sending angry souls back to the world of th (1.5/4.0)",
+        "OriginalAirdate": 1379635200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9672434_v_h9_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p9672434_v_v5_af.jpg",
+        "SeriesID": "MV004509820000",
+        "Filter": [
+          "Movies",
+          "Comedy"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Somewhere Between",
+        "EpisodeNumber": "S01E10",
+        "EpisodeTitle": "One Must Die",
+        "Synopsis": "As Laura and Nico discover the reason for the vast conspiracy, they race against the clock to save Serena and Danny.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14045969_b_h3_aa.jpg",
+        "SeriesID": "C14045969ENBKRY",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878500,
+        "Title": "Global News at 11",
+        "OriginalAirdate": 1330473600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9123089_b_h3_aa.jpg",
+        "SeriesID": "C9123089ENXFUM",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878500,
+        "EndTime": 1505882220,
+        "Title": "The Late Show With Stephen Colbert",
+        "EpisodeNumber": "S03E06",
+        "EpisodeTitle": "Hillary Clinton; Emma Stone",
+        "Synopsis": "Former Secretary of State Hillary Clinton; actress Emma Stone.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10703384_b_h3_ac.jpg",
+        "SeriesID": "C10703384ENCZSN"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "7.1",
+    "GuideName": "WKBWDT",
+    "Affiliate": "ABC",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/28708/s28708_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "The List",
+        "EpisodeNumber": "S06E07",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9415071_b_h3_ac.jpg",
+        "SeriesID": "C9415071EN0KF9"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "The Middle",
+        "EpisodeNumber": "S08E23",
+        "EpisodeTitle": "Fight or Flight",
+        "Synopsis": "Frankie and Mike have different reactions when Axl tells them he plans to spend the summer in Europe; Sue panics when she doesn't hear back from the owner of an SUV she scrapes; Brick uncovers the source of his backaches.",
+        "OriginalAirdate": 1494892800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p3560344_b_h3_an.jpg",
+        "SeriesID": "C3560344ENTHM0"
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "Fresh Off the Boat",
+        "EpisodeNumber": "S03E23",
+        "EpisodeTitle": "This Isn't Us",
+        "Synopsis": "When Louis and Jessica make changes to provide their family with a better life, they learn the changes come with their own set of challenges.",
+        "OriginalAirdate": 1494892800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10777606_b_h3_ae.jpg",
+        "SeriesID": "C10777606EN5FD7"
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "blackish",
+        "EpisodeNumber": "S03E18",
+        "EpisodeTitle": "Manternity",
+        "Synopsis": "Dre considers taking paternity leave; Bow tries to conceal her pregnancy at work to get a promotion; Ruby convinces the kids that their nanny is stealing from them.",
+        "OriginalAirdate": 1489536000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10777519_b_h3_af.jpg",
+        "SeriesID": "C10777519ENI7E7"
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "blackish",
+        "EpisodeNumber": "S03E24",
+        "EpisodeTitle": "Sprinkles",
+        "Synopsis": "When Bow gets a headache and stops by the OB/GYN, she discovers she is having complications, which puts a damper on Dre's baby shower plans.",
+        "OriginalAirdate": 1494374400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10777519_b_h3_af.jpg",
+        "SeriesID": "C10777519ENI7E7"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Somewhere Between",
+        "EpisodeNumber": "S01E10",
+        "EpisodeTitle": "One Must Die",
+        "Synopsis": "As Laura and Nico discover the reason for the vast conspiracy, they race against the clock to save Serena and Danny.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14045969_b_h3_aa.jpg",
+        "SeriesID": "C14045969ENBKRY",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878500,
+        "Title": "7 Eyewitness News at 11pm",
+        "OriginalAirdate": 1237766400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p3508790_b_h3_aa.jpg",
+        "SeriesID": "C3508790ENRAA1",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878500,
+        "EndTime": 1505882220,
+        "Title": "Jimmy Kimmel Live",
+        "EpisodeNumber": "S15E117",
+        "EpisodeTitle": "Kirsten Dunst; Nathan Fielder; Jason Isbell and The 400 Unit",
+        "Synopsis": "Actress Kirsten Dunst; actor Nathan Fielder; Jason Isbell and The 400 Unit perform.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13696186_b_h3_ab.jpg",
+        "SeriesID": "C184869ENYSL3",
+        "Filter": [
+          "Comedy"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "7.2",
+    "GuideName": "WKBWDT2",
+    "Affiliate": "LAFF",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/92091/s92091_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Night Court",
+        "EpisodeNumber": "S06E04",
+        "EpisodeTitle": "Harry and the Tramp",
+        "Synopsis": "Harry (Harry Anderson) is shocked to learn that his date (guest star Wendy Schaal) is a former porn star. Bobbi Jo Latham also guest stars.",
+        "OriginalAirdate": 595036800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184004_b_h3_ab.jpg",
+        "SeriesID": "C184004EN8BI1"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "Roseanne",
+        "EpisodeNumber": "S07E26",
+        "EpisodeTitle": "Sherwood Schwartz: A Loving Tribute",
+        "Synopsis": "Dan fantasizes that the whole family is marooned on an island with Gilligan and his friends in a tribute to the 1960s TV series.",
+        "OriginalAirdate": 801273600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183903_b_h3_ab.jpg",
+        "SeriesID": "C183903ENINJ3"
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "Roseanne",
+        "EpisodeNumber": "S08E01",
+        "EpisodeTitle": "Shower the People You Love With Stuff",
+        "Synopsis": "Hostesses Becky and Darlene disagree over Roseanne's baby shower.",
+        "OriginalAirdate": 811468800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183903_b_h3_ab.jpg",
+        "SeriesID": "C183903ENINJ3"
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "Roseanne",
+        "EpisodeNumber": "S08E02",
+        "EpisodeTitle": "Let Them Eat Junk",
+        "Synopsis": "Jackie has it out with Roseanne when she doesn't follow specific dietary instructions for Andy.",
+        "OriginalAirdate": 812073600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183903_b_h3_ab.jpg",
+        "SeriesID": "C183903ENINJ3"
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "Roseanne",
+        "EpisodeNumber": "S08E03",
+        "EpisodeTitle": "Roseanne in the Hood",
+        "Synopsis": "A new restaurant opens up across the street from the Lunch Box, and while Jackie is worried sick, Roseanne seems unconcerned.",
+        "OriginalAirdate": 813888000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183903_b_h3_ab.jpg",
+        "SeriesID": "C183903ENINJ3"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505874600,
+        "Title": "Roseanne",
+        "EpisodeNumber": "S08E04",
+        "EpisodeTitle": "The Last Date",
+        "Synopsis": "During one of their final baby-free nights together, Roseanne and Dan crash a bar mitzvah party.",
+        "OriginalAirdate": 814492800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183903_b_h3_ab.jpg",
+        "SeriesID": "C183903ENINJ3"
+      },
+      {
+        "StartTime": 1505874600,
+        "EndTime": 1505876400,
+        "Title": "Roseanne",
+        "EpisodeNumber": "S08E05",
+        "EpisodeTitle": "Halloween: The Final Chapter",
+        "Synopsis": "A Ouija board's message sends Roseanne into labor on Halloween.",
+        "OriginalAirdate": 815097600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183903_b_h3_ab.jpg",
+        "SeriesID": "C183903ENINJ3"
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "Roseanne",
+        "EpisodeNumber": "S08E06",
+        "EpisodeTitle": "The Fifties Show",
+        "Synopsis": "A black-and-white episode parodies families from '50s sitcoms.",
+        "OriginalAirdate": 815702400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183903_b_h3_ab.jpg",
+        "SeriesID": "C183903ENINJ3"
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "Roseanne",
+        "EpisodeNumber": "S08E07",
+        "EpisodeTitle": "The Getaway, Almost",
+        "Synopsis": "Jackie and Roseanne meet a young woman who teaches them what being independent really means; Dan tries to spend time alone.",
+        "OriginalAirdate": 816307200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183903_b_h3_ab.jpg",
+        "SeriesID": "C183903ENINJ3"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "7.3",
+    "GuideName": "WKBWDT3",
+    "Affiliate": "ESCAPE",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/89923/s89923_h3_ba.png",
+    "Guide": [
+      {
+        "StartTime": 1505862000,
+        "EndTime": 1505865600,
+        "Title": "American Greed",
+        "EpisodeNumber": "S05E11",
+        "EpisodeTitle": "The Art of the Steal; Folsom Felon",
+        "Synopsis": "A famous art dealer cons New York high society out of millions.",
+        "OriginalAirdate": 1302048000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185958_b_h3_ai.jpg",
+        "SeriesID": "C185958ENK6Z0",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "Forensic Files",
+        "EpisodeNumber": "S11E04",
+        "EpisodeTitle": "Just Desserts",
+        "Synopsis": "A known criminal's driver's license is found at the crime scene of a double murder, but collected DNA point investigators in another direction.",
+        "OriginalAirdate": 1154476800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185346_b_h3_ab.jpg",
+        "SeriesID": "C185346ENJ5JV"
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "Forensic Files",
+        "EpisodeNumber": "S11E18",
+        "EpisodeTitle": "Murder She Wrote",
+        "Synopsis": "A woman who appeared to have taken her own life told her sister that, if anything were to happen to her, there was a note in the china cabinet.",
+        "OriginalAirdate": 1162166400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185346_b_h3_ab.jpg",
+        "SeriesID": "C185346ENJ5JV"
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "It Takes a Killer",
+        "EpisodeNumber": "S01E66",
+        "EpisodeTitle": "Bodyparts In My Pocket",
+        "Synopsis": "A serial killer crisscrosses California until his inner demons lead him to show up at a local Sheriff's Department with a victim's body part in his jacket pocket.",
+        "OriginalAirdate": 1496620800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13084335_b_h3_ab.jpg",
+        "SeriesID": "C13084335ENU794"
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "It Takes a Killer",
+        "EpisodeNumber": "S01E68",
+        "EpisodeTitle": "The Burial He Wanted",
+        "Synopsis": "The disappearance of a wealthy retiree in South Florida quickly turns from a missing person's case to a full blown homicide investigation focused around an unexpected perpetrator and her convoluted plan to get away with murder.",
+        "OriginalAirdate": 1496966400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13084335_b_h3_ab.jpg",
+        "SeriesID": "C13084335ENU794"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505874600,
+        "Title": "Forensic Files",
+        "EpisodeNumber": "S06E20",
+        "EpisodeTitle": "Root of All Evil",
+        "Synopsis": "When the wife of a farmer disappears, there are no clues to her whereabouts and even when the farmer's former lover turns up with a tale of murder and cremation, there is no way to test her story.",
+        "OriginalAirdate": 1001894400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185346_b_h3_ab.jpg",
+        "SeriesID": "C185346ENJ5JV"
+      },
+      {
+        "StartTime": 1505874600,
+        "EndTime": 1505876400,
+        "Title": "Forensic Files",
+        "EpisodeNumber": "S06E23",
+        "EpisodeTitle": "Sibling Rivalry",
+        "Synopsis": "A brother confesses to shooting his sibling, but investigators must determine whether the homicide was pre-meditated.",
+        "OriginalAirdate": 1003708800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185346_b_h3_ab.jpg",
+        "SeriesID": "C185346ENJ5JV"
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505880000,
+        "Title": "American Greed",
+        "EpisodeNumber": "S05E09",
+        "EpisodeTitle": "The Slaughterhouse",
+        "Synopsis": "The head of a kosher slaughterhouse uses unorthodox methods to make money.",
+        "OriginalAirdate": 1300838400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185958_b_h3_ai.jpg",
+        "SeriesID": "C185958ENK6Z0",
+        "Filter": [
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "7.4",
+    "GuideName": "WKBWDT4",
+    "Affiliate": "GRIT",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/89922/s89922_h3_ba.png",
+    "Guide": [
+      {
+        "StartTime": 1505862000,
+        "EndTime": 1505865600,
+        "Title": "Walker, Texas Ranger",
+        "EpisodeNumber": "S06E19",
+        "EpisodeTitle": "Everyday Heroes",
+        "Synopsis": "A woman needs Walker and Trent (Chuck Norris, Jimmy Wlcek) to defend her from her abusive, drug-dealing husband. With Clarence Gilyard.",
+        "OriginalAirdate": 890438400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184128_b_h3_aa.jpg",
+        "SeriesID": "C184128EN8E2M",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "Walker, Texas Ranger",
+        "EpisodeNumber": "S06E20",
+        "EpisodeTitle": "Warriors",
+        "Synopsis": "Conspirators kidnap a scientist for a genetic discovery that will enable them to create invincible warriors.",
+        "OriginalAirdate": 891648000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184128_b_h3_aa.jpg",
+        "SeriesID": "C184128EN8E2M",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872800,
+        "Title": "Walker, Texas Ranger",
+        "EpisodeNumber": "S06E21",
+        "EpisodeTitle": "Angel",
+        "Synopsis": "With the help of Detective Sandoval, Trivette tries to capture a former love who is now a professional killer.",
+        "OriginalAirdate": 892857600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184128_b_h3_aa.jpg",
+        "SeriesID": "C184128EN8E2M",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Walker, Texas Ranger",
+        "EpisodeNumber": "S02E16",
+        "EpisodeTitle": "Prodigal Son",
+        "Synopsis": "Walker decides he must spend some time alone after a lapse in his judgment during a hostage situation almost causes the death of a teenage boy.",
+        "OriginalAirdate": 762825600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184128_b_h3_aa.jpg",
+        "SeriesID": "C184128EN8E2M",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505883600,
+        "Title": "Cowboy",
+        "Synopsis": "A successful rancher, Tom Reece (Glenn Ford), forges a business venture with a Mexican landowner (Donald Randolph) but finds himself in a bind after squandering a lot of money at a hotel run by Frank Harris (Jack Lemmon). Frank has strong feelings for the Mexican's daughter (Anna Kashfi), and when he learns that Tom is in a tough spot, he exploits the situation to get closer to his potential paramour. Frank takes to horseback alongside Tom, and both are surprised by the results. (3.0/4.0)",
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p3969_v_v5_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p3969_v_v5_aa.jpg",
+        "SeriesID": "MV000066780000",
+        "Filter": [
+          "Movies"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "9.1",
+    "GuideName": "CFTO",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/10108/s10108_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "The Big Bang Theory",
+        "EpisodeNumber": "S07E10",
+        "EpisodeTitle": "The Discovery Dissipation",
+        "Synopsis": "Amy and Leonard try to help Sheldon deal with his shame; Raj stays with Bernadette and Howard for a week.",
+        "OriginalAirdate": 1386201600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10039305_b_h3_aa.jpg",
+        "SeriesID": "C185554EN6JG4"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505876400,
+        "Title": "The Martian",
+        "Synopsis": "When astronauts blast off from the planet Mars, they leave behind Mark Watney (Matt Damon), presumed dead after a fierce storm. With only a meager amount of supplies, the stranded visitor must utilize his wits and spirit to find a way to survive on the hostile planet. Meanwhile, back on Earth, members of NASA and a team of international scientists work tirelessly to bring him home, while his crew mates hatch their own plan for a daring rescue mission. (3.5/4.0)",
+        "OriginalAirdate": 1448582400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10980706_v_h9_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p10980706_v_v5_ab.jpg",
+        "SeriesID": "MV006118770000",
+        "Filter": [
+          "Movies",
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "CTV National News With Lisa LaFlamme",
+        "OriginalAirdate": 1315180800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p8805389_b_h3_ac.jpg",
+        "SeriesID": "C8805389ENU7GQ",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880300,
+        "Title": "CTV News Toronto",
+        "OriginalAirdate": 1414713600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p11226977_b_h3_ab.jpg",
+        "SeriesID": "C11226977ENXG0J",
+        "Filter": [
+          "News"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "11.1",
+    "GuideName": "CHCH",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/10112/s10112_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Degrassi: The Next Generation",
+        "EpisodeNumber": "S08E01",
+        "EpisodeTitle": "Uptown Girl",
+        "Synopsis": "Mia has a chance at a modeling job if she is willing to beat the competition.",
+        "OriginalAirdate": 1223596800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185793_b_h3_ad.jpg",
+        "SeriesID": "C185793EN6PCY",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "Betty White's Off Their Rockers",
+        "EpisodeNumber": "S03E02",
+        "EpisodeTitle": "Betty's New Chef",
+        "Synopsis": "A zombie attack in Betty's house; celebrity dating advice; reality show pitches.",
+        "OriginalAirdate": 1393545600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p8611153_b_h3_ae.jpg",
+        "SeriesID": "C8611153ENVJAX",
+        "Filter": [
+          "Comedy"
+        ]
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "The Watchlist",
+        "OriginalAirdate": 1357171200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9648133_b_h3_ab.jpg",
+        "SeriesID": "C9648133EN7OKD"
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872800,
+        "Title": "White Collar",
+        "EpisodeNumber": "S04E05",
+        "EpisodeTitle": "Honor Among Thieves",
+        "Synopsis": "Neal is blackmailed by an art thief in exchange for information, which may hinder his relationship with Peter.",
+        "OriginalAirdate": 1344902400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p7806806_b_h3_ad.jpg",
+        "SeriesID": "C7806806ENI912",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "The Americans",
+        "EpisodeNumber": "S01E02",
+        "EpisodeTitle": "The Clock",
+        "Synopsis": "Philip and Elizabeth are given an urgent task to plant a bug in Defense Secretary Caspar Weinberger's office; Stan closes in on a member of the Soviet Rezidentura.",
+        "OriginalAirdate": 1360108800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13714566_b_h3_aa.jpg",
+        "SeriesID": "C9474833ENMKLF",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "Evening News at 11",
+        "OriginalAirdate": 1251676800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p7823621_st_h3_aa.jpg",
+        "SeriesID": "C7823621ENAXM7",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "Bloomberg North",
+        "OriginalAirdate": 1456099200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p12631908_b_h3_ab.jpg",
+        "SeriesID": "C12631908ENV056"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "17.1",
+    "GuideName": "WNEDDT",
+    "Affiliate": "PBS",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/32356/s32356_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "A Craftsman's Legacy",
+        "EpisodeNumber": "S04E03",
+        "EpisodeTitle": "The Jeans Maker",
+        "Synopsis": "Eric Yelsma, founder of Detroit Denim Co., makes jeans from American sourced, sustainable fabric constructed and sold in Detroit.",
+        "OriginalAirdate": 1505520000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10956254_b_h3_ab.jpg",
+        "SeriesID": "C10956254ENZZG5"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505872800,
+        "Title": "The Vietnam War",
+        "EpisodeNumber": "S01E03",
+        "EpisodeTitle": "The River Styx",
+        "Synopsis": "Fearing Saigon's collapse, President Lyndon B. Johnson authorizes the bombing of North Vietnam, and sends U.S. ground troops to the south.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14097537_b_h3_ac.jpg",
+        "SeriesID": "C14097537ENUMXR"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Erie: The Canal That Made America",
+        "Synopsis": "A young America constructs a 363-mile man-made waterway linking the East to the West.",
+        "OriginalAirdate": 1505088000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14406647_b_h3_aa.jpg",
+        "SeriesID": "C14406647ENT9V7"
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "Nightly Business Report",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p186046_b_h3_ad.jpg",
+        "SeriesID": "C186046ENKY8D",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "Tavis Smiley",
+        "EpisodeNumber": "S14E197",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13418983_b_h3_aa.jpg",
+        "SeriesID": "C186096ENHA8D"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "17.2",
+    "GuideName": "WNEDDT2",
+    "Affiliate": "CREATE",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/48990/s48990_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Baking With Julia",
+        "Synopsis": "Chef Marcel Desaulniers prepares oven-roasted plum cakes with chocolate sauce and chocolate-mint nightcaps.",
+        "OriginalAirdate": 879552000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p186080_b_h3_ac.jpg",
+        "SeriesID": "C186080EN4NMZ"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "Martha Bakes",
+        "EpisodeNumber": "S05E09",
+        "EpisodeTitle": "Extraordinary Fruits",
+        "Synopsis": "Souffle with passion fruit; mango upside-down cake; biscuit-topped raspberry-rhubarb cobblers.",
+        "OriginalAirdate": 1448496000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p12032964_b_h3_aa.jpg",
+        "SeriesID": "C8426933ENQBLU"
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "America's Test Kitchen From Cook's Illustrated",
+        "EpisodeNumber": "S17E17",
+        "EpisodeTitle": "Chinese Takeout, Revised",
+        "Synopsis": "Beef stir-fry with bell peppers and black pepper sauce; soy sauce; scallion pancakes with dipping sauce.",
+        "OriginalAirdate": 1493424000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p329265_b_h3_ab.jpg",
+        "SeriesID": "C329265ENSPQK"
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "Julie Taboulie's Lebanese Kitchen",
+        "EpisodeNumber": "S01E07",
+        "EpisodeTitle": "It's a Magnificent Morning With Manoush & Mama",
+        "Synopsis": "Manoush, personal dough pies topped with a signature Lebanese spice blend called Zaatar; homemade yogurt; Arabic coffee called Ahwa.",
+        "OriginalAirdate": 1495497600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13899121_b_h3_aa.jpg",
+        "SeriesID": "C13899121EN1AEN"
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "Steven Raichlen's Project Smoke",
+        "EpisodeNumber": "S03E04",
+        "EpisodeTitle": "Fire Birds",
+        "Synopsis": "Moroccan grilled chicken kebabs; chicken with rhubarb Tkemali sauce; smoked turkey; grilled pound cake topped with berries and smoked whipped cream.",
+        "OriginalAirdate": 1497484800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p11752549_b_h3_ac.jpg",
+        "SeriesID": "C11752549ENHI26"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505874600,
+        "Title": "The Woodwright's Shop",
+        "EpisodeNumber": "S35E01",
+        "EpisodeTitle": "Rocky Bentwood Cradle Show",
+        "Synopsis": "Shaping and bending ash wood bows for a rocking cradle based on one from the Grand Bazaar of Istanbul.",
+        "OriginalAirdate": 1442620800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p186264_b_h3_ad.jpg",
+        "SeriesID": "C186264ENRGHR"
+      },
+      {
+        "StartTime": 1505874600,
+        "EndTime": 1505876400,
+        "Title": "Joseph Rosendo's Travelscope",
+        "EpisodeNumber": "S08E09",
+        "EpisodeTitle": "Northwest Ontario -- Lake Superior and Beyond",
+        "Synopsis": "A 300-mile drive along the Trans-Canada Highway from Thunder Bay to Kenora, Ontario.",
+        "OriginalAirdate": 1446249600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p517291_b_h3_ab.jpg",
+        "SeriesID": "C517291ENF5P2"
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "Two for the Road",
+        "EpisodeNumber": "S01E01",
+        "EpisodeTitle": "Journey to the End of the World",
+        "Synopsis": "Nikki and Dusty Green board a Russian research ship bound for Antarctica.",
+        "OriginalAirdate": 1473292800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13189179_b_h3_aa.jpg",
+        "SeriesID": "C13189179EN0JS1"
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "Martha Bakes",
+        "EpisodeNumber": "S05E09",
+        "EpisodeTitle": "Extraordinary Fruits",
+        "Synopsis": "Souffle with passion fruit; mango upside-down cake; biscuit-topped raspberry-rhubarb cobblers.",
+        "OriginalAirdate": 1448496000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p12032964_b_h3_aa.jpg",
+        "SeriesID": "C8426933ENQBLU"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "17.3",
+    "GuideName": "WNEDDT3",
+    "Affiliate": "PBS",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/11039/s11039_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Wild Kratts",
+        "EpisodeNumber": "S01E33",
+        "EpisodeTitle": "Caracal-Minton",
+        "Synopsis": "A wildcat disrupts a game of badminton.",
+        "OriginalAirdate": 1333324800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p8369911_v_h9_aa.jpg",
+        "SeriesID": "C8369911ENIOXE",
+        "Filter": [
+          "Kids"
+        ]
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "Odd Squad",
+        "EpisodeNumber": "S02E12",
+        "EpisodeTitle": "Three's Company; Behind Enemy Mimes",
+        "Synopsis": "Odd infestations send Ms. O from her office; Ms O. needs help tracking down her old partner.",
+        "OriginalAirdate": 1478563200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p11086138_b_h3_ab.jpg",
+        "SeriesID": "C11086138ENZ1SW",
+        "Filter": [
+          "Kids"
+        ]
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "Odd Squad",
+        "EpisodeNumber": "S02E13",
+        "EpisodeTitle": "Drop Gadget Repeat; 20 Questions",
+        "Synopsis": "The agents are caught in a time loop; a villain sets off a backward bubble.",
+        "OriginalAirdate": 1478649600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p11086138_b_h3_ab.jpg",
+        "SeriesID": "C11086138ENZ1SW",
+        "Filter": [
+          "Kids"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "Arthur",
+        "EpisodeNumber": "S18E07",
+        "EpisodeTitle": "Buster Isn't Buying It; One Ornery Critter",
+        "Synopsis": "Buster is crushed when his favorite show gets canceled for false reporting; a pup named Carrot Cake doesn't like Arthur.",
+        "OriginalAirdate": 1433203200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184303_b_h3_ad.jpg",
+        "SeriesID": "C184303EN50BY",
+        "Filter": [
+          "Kids"
+        ]
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "Arthur",
+        "EpisodeNumber": "S19E06",
+        "EpisodeTitle": "Maria Speaks; Postcards From Binky",
+        "Synopsis": "Maria has to speak in class, but she is worried about her stutter; Binky re-enacts his soccer game after his grandparents miss it.",
+        "OriginalAirdate": 1464048000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184303_b_h3_ad.jpg",
+        "SeriesID": "C184303EN50BY",
+        "Filter": [
+          "Kids"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505874600,
+        "Title": "Super Why!",
+        "EpisodeNumber": "S02E02",
+        "EpisodeTitle": "Webby in Bathland",
+        "Synopsis": "After practicing her soccer moves, Red finds out it takes more than just water to wash away germs.",
+        "OriginalAirdate": 1315872000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p186078_b_h3_ag.jpg",
+        "SeriesID": "C186078ENTZPT",
+        "Filter": [
+          "Kids"
+        ]
+      },
+      {
+        "StartTime": 1505874600,
+        "EndTime": 1505876400,
+        "Title": "Sesame Street",
+        "EpisodeNumber": "S47E01",
+        "EpisodeTitle": "The Kindness Kid",
+        "Synopsis": "The Kindness Kid visits Sesame Street to spread kindness around the neighborhood.",
+        "OriginalAirdate": 1483747200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184032_b_h3_aa.jpg",
+        "SeriesID": "C184032ENGD02",
+        "Filter": [
+          "Kids"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "Sesame Street",
+        "EpisodeNumber": "S47E02",
+        "EpisodeTitle": "Be Kind to Your Worm",
+        "Synopsis": "Oscar the Grouch participates in \"Be Kind to Your Worm Day\" activities.",
+        "OriginalAirdate": 1484352000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184032_b_h3_aa.jpg",
+        "SeriesID": "C184032ENGD02",
+        "Filter": [
+          "Kids"
+        ]
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "Dinosaur Train",
+        "EpisodeNumber": "S03E07",
+        "EpisodeTitle": "Solar Train; Birdwatching",
+        "Synopsis": "The family visits Troodon Town Roundhouse to see the Solar Train, which is powered by the sun; birds show off their feathers for birdwatching/drawing day.",
+        "OriginalAirdate": 1412553600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p3607495_b_h3_aa.jpg",
+        "SeriesID": "C3607495EN11LC",
+        "Filter": [
+          "Kids"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "19.1",
+    "GuideName": "CICA",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/10119/s10119_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505865000,
+        "EndTime": 1505865180,
+        "Title": "Main Street Ontario",
+        "EpisodeTitle": "Kingston",
+        "Synopsis": "If you're looking for a specific record, you'll probably find it at Brian's Record Option in Kingston - but you'll need his help. Thousands of records are piled up in every corner of his downtown shop, but somehow he always knows where everything is.",
+        "OriginalAirdate": 1498780800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14268656_b_h3_aa.jpg",
+        "SeriesID": "C14268656EN8P53"
+      },
+      {
+        "StartTime": 1505865180,
+        "EndTime": 1505865600,
+        "Title": "Climate Watch Shorts",
+        "EpisodeTitle": "Fighting With Fire",
+        "Synopsis": "Climate change is leading to hotter, drier summers and creating the ideal conditions for forest fires. Joshua Johnston, a forest fire research scientist with the Canadian Forest Service, is studying wildfires with an eye toward the future.",
+        "OriginalAirdate": 1498262400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13998987_b_h3_aa.jpg",
+        "SeriesID": "C13998987ENZ4FN"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "The Agenda With Steve Paikin",
+        "EpisodeTitle": "Ontario PC's Internal Strife",
+        "Synopsis": "Examine a series of internal issues threatening the stability of the Ontario PC Party. Then, one of Canadas most prolific and talented sculptors, discusses some of her most memorable works.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p938057_b_h3_ac.jpg",
+        "SeriesID": "C938057EN275V",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872380,
+        "Title": "The Life-Sized City",
+        "EpisodeTitle": "Toronto",
+        "Synopsis": "Toronto has become a prominent cultural and artistic hub and a haven for foodies. Toronto is the big city that doesn't feel impersonal.",
+        "OriginalAirdate": 1505606400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14436621_st_h3_aa.jpg",
+        "SeriesID": "C14436621EN704O"
+      },
+      {
+        "StartTime": 1505872380,
+        "EndTime": 1505872800,
+        "Title": "Climate Watch Shorts",
+        "EpisodeTitle": "Melting Permafrost",
+        "Synopsis": "Climate change is thawing permafrost in northern Ontario.",
+        "OriginalAirdate": 1494115200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13998987_b_h3_aa.jpg",
+        "SeriesID": "C13998987ENZ4FN"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Redesign My Brain",
+        "EpisodeTitle": "Make Me Creative",
+        "Synopsis": "A team of experts coach Todd to increase his creativity and overcome limiting mindsets.",
+        "OriginalAirdate": 1390262400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10397646_b_h3_ad.jpg",
+        "SeriesID": "C10397646ENWX82"
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505880000,
+        "Title": "The Agenda With Steve Paikin",
+        "EpisodeTitle": "Ontario PC's Internal Strife",
+        "Synopsis": "Examine a series of internal issues threatening the stability of the Ontario PC Party. Then, one of Canadas most prolific and talented sculptors, discusses some of her most memorable works.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p938057_b_h3_ac.jpg",
+        "SeriesID": "C938057EN275V",
+        "Filter": [
+          "News"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "23.1",
+    "GuideName": "WNLODT",
+    "Affiliate": "CW",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/53098/s53098_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "TMZ",
+        "EpisodeNumber": "S11E14",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185886_b_h3_ac.jpg",
+        "SeriesID": "C185886ENO165"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "The Flash",
+        "EpisodeNumber": "S03E21",
+        "EpisodeTitle": "Cause and Effect",
+        "Synopsis": "Barry goes to extreme measures to stop Savitar; H.R. pushes Tracy Brand to design a trap; Killer Frost returns with an interesting proposal.",
+        "OriginalAirdate": 1494288000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10781465_b_h3_af.jpg",
+        "SeriesID": "C10781465EN01TF",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872800,
+        "Title": "DC's Legends of Tomorrow",
+        "EpisodeNumber": "S02E16",
+        "EpisodeTitle": "Doomworld",
+        "Synopsis": "The Legion of Doom rewrites reality, leaving the Legends altered; the reason the Spear of Destiny must be destroyed comes to light.",
+        "OriginalAirdate": 1490659200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p11782984_b_h3_ar.jpg",
+        "SeriesID": "C11782984ENVOTA",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "News 4 at 10",
+        "OriginalAirdate": 1099353600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p825953_b_h3_aa.jpg",
+        "SeriesID": "C825953ENF1BG",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "Mom",
+        "EpisodeNumber": "S01E02",
+        "EpisodeTitle": "A Pee Stick and an Asian Raccoon",
+        "Synopsis": "Bonnie and Christy put aside their differences to handle a family crisis.",
+        "OriginalAirdate": 1380499200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9978206_b_h3_af.jpg",
+        "SeriesID": "C9978206ENCGWZ"
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "Mom",
+        "EpisodeNumber": "S03E02",
+        "EpisodeTitle": "Thigh Gap and a Rack of Lamb",
+        "Synopsis": "After Bonnie and Christy meet a teenage addict named Jodi (Emily Osment) at a meeting, they try to help her.",
+        "OriginalAirdate": 1447286400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9978206_b_h3_af.jpg",
+        "SeriesID": "C9978206ENCGWZ"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "23.2",
+    "GuideName": "WNLODT2",
+    "Affiliate": "BOUNCE",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/73067/s73067_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "The Cosby Show",
+        "EpisodeNumber": "S06E20",
+        "EpisodeTitle": "Isn't It Romantic?",
+        "Synopsis": "Theo asks the three married men in the family whether romance dies after marriage.",
+        "OriginalAirdate": 635644800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184085_b_h3_aa.jpg",
+        "SeriesID": "C184085ENEZ8Q"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "The Bernie Mac Show",
+        "EpisodeNumber": "S02E19",
+        "EpisodeTitle": "Nut Job",
+        "Synopsis": "Bernie enrolls the children in a myriad of activities, then discovers his Saturdays are at stake.",
+        "OriginalAirdate": 1051660800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184747_b_h3_aa.jpg",
+        "SeriesID": "C184747EN9K5N"
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "The Bernie Mac Show",
+        "EpisodeNumber": "S02E21",
+        "EpisodeTitle": "Meet the Grandparents",
+        "Synopsis": "Wanda's parents (guest stars Steven Williams and Janet Hubert) take over the household while visiting.",
+        "OriginalAirdate": 1052265600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184747_b_h3_aa.jpg",
+        "SeriesID": "C184747EN9K5N"
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "In the Cut",
+        "EpisodeNumber": "S03E12",
+        "EpisodeTitle": "Feng Shui",
+        "Synopsis": "Cheryl and Percy have a design disagreement, driving The Percy Experience to the barbershop; Smitty is convinced that he is the target of a parking ticket conspiracy.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p11941885_b_h3_ab.jpg",
+        "SeriesID": "C11941885ENFK22",
+        "Filter": [
+          "Comedy"
+        ]
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "Family Time",
+        "EpisodeNumber": "S04E12",
+        "EpisodeTitle": "Merry Kwanzaa",
+        "Synopsis": "When Lisa's attempts to spread the holiday cheer fall short, Tony steps in to save the day.",
+        "OriginalAirdate": 1482192000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9247532_b_h3_ab.jpg",
+        "SeriesID": "C9247532ENQZXA"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505880000,
+        "Title": "Showtime",
+        "Synopsis": "When a no-nonsense LAPD detective (Robert De Niro) is forced to star in a reality-based television show with a frustrated actor-turned-LAPD-patrolman (Eddie Murphy), they find their lives turned upside down by a powerhouse producer (Rene Russo) and her very intrusive camera crew. (1.5/4.0)",
+        "OriginalAirdate": 1016150400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p29226_v_v5_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p29226_v_v5_aa.jpg",
+        "SeriesID": "MV001177460000",
+        "Filter": [
+          "Movies",
+          "Comedy"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "25.1",
+    "GuideName": "CBLFTDT",
+    "Affiliate": "SRC",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/45864/s45864_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "La facture",
+        "EpisodeNumber": "S23E02",
+        "EpisodeTitle": "À beau mentir qui vient de loin",
+        "Synopsis": "Pour soutirer de l'argent à des Québécois, une agence française vend du rêve à fort prix à des propriétaires de PME. Une famille d'agriculteurs témoigne des méthodes douteuses de l'agence pour leur faire acheter de la publicité sur Internet.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p254860_b_h3_ab.jpg",
+        "SeriesID": "C254860FRVI6Q"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "Unité 9",
+        "EpisodeNumber": "S06E02",
+        "Synopsis": "Marie accorde une entrevue à propos de Jeanne et des conditions de vie à Lietteville dans une populaire émission de radio; à l'approche du procès de Caroline, Normand est contrarié de savoir que Marie-France sera un témoin important.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9437218_b_h3_aa.jpg",
+        "SeriesID": "C9437218FRZS3G",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872800,
+        "Title": "Mémoires vives",
+        "EpisodeNumber": "S06E02",
+        "Synopsis": "Le procès de Jérémie reprend et le jeune accusé fait une déclaration tout à fait inattendue; un nouvel indice destiné à l'enquêteur Dupuis est découvert.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9658069_b_h3_aa.jpg",
+        "SeriesID": "C9658069FRUJ5E",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Le Téléjournal avec Céline Galipeau",
+        "OriginalAirdate": 1504483200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14477704_b_h3_aa.jpg",
+        "SeriesID": "C14477704FRU46P",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505876700,
+        "Title": "Sports express",
+        "OriginalAirdate": 1504483200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14482747_st_h3_aa.jpg",
+        "SeriesID": "C14482747FRSEDZ",
+        "Filter": [
+          "Sports"
+        ]
+      },
+      {
+        "StartTime": 1505876700,
+        "EndTime": 1505878260,
+        "Title": "Le Téléjournal Ontario",
+        "OriginalAirdate": 1092614400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p256570_st_h3_aa.jpg",
+        "SeriesID": "C256570FROOLZ",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878260,
+        "EndTime": 1505883660,
+        "Title": "Marina Orsini",
+        "EpisodeNumber": "S03E07",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p12065309_b_h3_aa.jpg",
+        "SeriesID": "C12065309FRHY1L"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "29.1",
+    "GuideName": "WUTVDT",
+    "Affiliate": "FOX",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/28719/s28719_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Family Feud",
+        "EpisodeNumber": "S19E13",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p8314079_b_h3_ab.jpg",
+        "SeriesID": "C8314079ENHYPR"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "Lethal Weapon",
+        "EpisodeNumber": "S01E18",
+        "EpisodeTitle": "Commencement",
+        "Synopsis": "Riggs makes a shocking discovery about Miranda's death, which leads him back to the cartel in a frantic search for answers; Murtaugh is torn between his commitment to his partner and his commitment to his family.",
+        "OriginalAirdate": 1489536000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p12900695_b_h3_ao.jpg",
+        "SeriesID": "C12900695EN3KJV",
+        "Filter": [
+          "Comedy",
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872800,
+        "Title": "The Orville",
+        "EpisodeNumber": "S01E02",
+        "EpisodeTitle": "Command Performance",
+        "Synopsis": "Ed and Kelly find themselves prisoners in a replica of their former home; Alara must take first command of the Orville to attempt a heroic rescue; Bortus and Klyden receive unexpected news.",
+        "OriginalAirdate": 1505606400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14154433_b_h3_ab.jpg",
+        "SeriesID": "C14154433ENRNML",
+        "Filter": [
+          "Comedy",
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505874600,
+        "Title": "2 on Your Side at 10",
+        "OriginalAirdate": 1379289600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10479089_b_h3_aa.jpg",
+        "SeriesID": "C10479089ENUUBO",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505874600,
+        "EndTime": 1505876400,
+        "Title": "Seinfeld",
+        "EpisodeNumber": "S06E04",
+        "EpisodeTitle": "The Chinese Woman",
+        "Synopsis": "A series of mishaps occur when George's phone lines get crossed and a woman answers when anyone calls.",
+        "OriginalAirdate": 782006400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183875_b_h3_ab.jpg",
+        "SeriesID": "C183875ENQP3M"
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "Two and a Half Men",
+        "EpisodeNumber": "S01E01",
+        "EpisodeTitle": "Pilot",
+        "Synopsis": "Charlie's life turns upside down when his brother and nephew move in; at the supermarket, Charlie discovers he can use 10-year-old Jake to attract women.",
+        "OriginalAirdate": 1064188800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10039328_b_h3_aa.jpg",
+        "SeriesID": "C184925ENTTLQ"
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "Two and a Half Men",
+        "EpisodeNumber": "S01E02",
+        "EpisodeTitle": "Big Flappy Bastards",
+        "Synopsis": "Charlie doesn't know how to discipline Jake for luring a flock of sea gulls into his room; Judith surprises Alan when he goes home to fix her sprinklers.",
+        "OriginalAirdate": 1064793600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10039328_b_h3_aa.jpg",
+        "SeriesID": "C184925ENTTLQ"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "29.2",
+    "GuideName": "WUTVDT2",
+    "Affiliate": "TBD TV",
+    "Guide": [
+      {
+        "StartTime": 1505862000,
+        "EndTime": 1505865600,
+        "Title": "QYOU PRIME",
+        "OriginalAirdate": 1486944000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13746629_st_h3_aa.jpg",
+        "SeriesID": "C13746629EN8IY4"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "Emma Approved",
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10857661_b_h3_aa.jpg",
+        "SeriesID": "C10857661ENWJEA",
+        "Filter": [
+          "Comedy"
+        ]
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505871000,
+        "Title": "Titansgrave",
+        "EpisodeNumber": "S01E08",
+        "Synopsis": "The party delves deeper into Reed Manor and reunite with Runsible where they learn that there is more to the manor than meets the eye.",
+        "OriginalAirdate": 1492473600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13746696_st_h3_aa.jpg",
+        "SeriesID": "C13746696ENLBOO"
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "While You Were",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13746761_st_h3_aa.jpg",
+        "SeriesID": "C13746761ENSCJJ",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "QYOU PRIME",
+        "OriginalAirdate": 1486944000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13746629_st_h3_aa.jpg",
+        "SeriesID": "C13746629EN8IY4"
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "This Week in Fails",
+        "OriginalAirdate": 1505692800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13746677_st_h3_aa.jpg",
+        "SeriesID": "C13746677ENJIFO"
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "Pranks Network After Dark",
+        "OriginalAirdate": 1504051200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14478126_st_h3_aa.jpg",
+        "SeriesID": "C14478126ENQWBG",
+        "Filter": [
+          "Comedy"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "29.3",
+    "GuideName": "WUTVDT3",
+    "Affiliate": "CHARGE!",
+    "Guide": [
+      {
+        "StartTime": 1505862000,
+        "EndTime": 1505869200,
+        "Title": "Dark Blue",
+        "Synopsis": "Set in the Los Angeles Police Department in 1992, \"Dark Blue\" is a thriller that takes place just days before the acquittal of four white officers in the beating of black motorist Rodney King and the subsequent L.A. riots. In this racially charged climate, the LAPD's elite Special Investigations Squad is assigned a quadruple homicide. As they work the case, detective Eldon (Kurt Russell), tutors SIS rookie Bobby (Scott Speedman) in the realities of police intimidation and corruption. (2.5/4.0)",
+        "OriginalAirdate": 1045785600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p31489_v_h9_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p31489_v_v5_aa.jpg",
+        "SeriesID": "MV001322650000",
+        "Filter": [
+          "Movies",
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505878200,
+        "Title": "Thunderheart",
+        "Synopsis": "When a series of murders stuns a small Native American reservation, the FBI sends in agent Ray Levoi (Val Kilmer) to investigate. While Ray is relatively inexperienced, he is one quarter Sioux, and the FBI hopes that will make it easier for them to gather information from the locals. While the reservation police officer (Graham Greene) views the agent as an outsider, the tribal elder (Chief Ted Thin Elk) believes him to be the reincarnated spirit of Thunderheart, a Native American hero (3.0/4.0)",
+        "OriginalAirdate": 694224000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13867_v_h9_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p13867_v_v5_aa.jpg",
+        "SeriesID": "MV000348340000",
+        "Filter": [
+          "Movies"
+        ]
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505885400,
+        "Title": "Cul-de-Sac",
+        "Synopsis": "When on-the-lam crook Richard (Lionel Stander) and his injured partner-in-crime, Albie (Jack MacGowran), seek shelter in a remote castle by the sea, they find themselves confronted by the owners -- George (Donald Pleasence), an eccentric and weak retiree, and his oversexed wife, Teresa (Françoise Dorléac). Richard seizes control of the castle, but, as the criminals are pulled further into the isolated world of the strange couple, a volatile test of wills ensues. (3.0/4.0)",
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p4776_v_v5_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p4776_v_v5_aa.jpg",
+        "SeriesID": "MV000081860000",
+        "Filter": [
+          "Movies",
+          "Comedy"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "35.1",
+    "GuideName": "CHCJDT",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/72705/s72705_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "etalk",
+        "Synopsis": "Traci's in London with Halle Berry, Julianne Moore and Colin Firth; interview with Justin Theroux.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p191965_b_h3_ad.jpg",
+        "SeriesID": "C191965EN7KN5"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "The Kennedys: After Camelot",
+        "EpisodeTitle": "New Beginnings",
+        "Synopsis": "Chappaquiddick damage control continues as Ted eyes the presidency; JFK Jr. struggles with expectations; Jackie holds the family together; Ted falls deeper into depression when his son becomes ill; the legacy of Camelot ends with the death of JFK Jr.",
+        "OriginalAirdate": 1491696000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13747749_b_h3_aa.jpg",
+        "SeriesID": "C8594766ENLQJC",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872800,
+        "Title": "Castle",
+        "EpisodeNumber": "S08E20",
+        "EpisodeTitle": "Much Ado About Murder",
+        "Synopsis": "When a movie star turned stage actor is mysteriously killed, Castle and Beckett go backstage and discover he had more than his lines to worry about.",
+        "OriginalAirdate": 1462147200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10778776_b_h3_aa.jpg",
+        "SeriesID": "C188601ENADGP",
+        "Filter": [
+          "Comedy",
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505874600,
+        "Title": "The Goldbergs",
+        "EpisodeNumber": "S03E02",
+        "EpisodeTitle": "A Chorus Lie",
+        "Synopsis": "Beverly asks Miss Cinoman (Ana Gasteyer) to let Adam -- who is going through puberty -- lip sync in the school musical; Murray inspires Erica to go to the homecoming dance with Geoff Schwartz (Sam Lerner).",
+        "OriginalAirdate": 1443571200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9977319_b_h3_av.jpg",
+        "SeriesID": "C9977319ENLHC3"
+      },
+      {
+        "StartTime": 1505874600,
+        "EndTime": 1505876400,
+        "Title": "Seinfeld",
+        "EpisodeNumber": "S06E04",
+        "EpisodeTitle": "The Chinese Woman",
+        "Synopsis": "A series of mishaps occur when George's phone lines get crossed and a woman answers when anyone calls.",
+        "OriginalAirdate": 782006400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183875_b_h3_ab.jpg",
+        "SeriesID": "C183875ENQP3M"
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878440,
+        "Title": "CTV News Barrie",
+        "OriginalAirdate": 1414713600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p11226354_b_h3_ab.jpg",
+        "SeriesID": "C11226354EN1X7I",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878440,
+        "EndTime": 1505882220,
+        "Title": "The Tonight Show Starring Jimmy Fallon",
+        "EpisodeNumber": "S04E205",
+        "EpisodeTitle": "Kevin James; Ilana Glazer; Rudimental; James Arthur",
+        "Synopsis": "Actor Kevin James; actress Ilana Glazer; Rudimental performs with James Arthur.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13266648_b_h3_aa.jpg",
+        "SeriesID": "C9898935ENZGMN",
+        "Filter": [
+          "Comedy"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "36.1",
+    "GuideName": "CITSDT",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/60344/s60344_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Jeopardy!",
+        "EpisodeNumber": "S34E07",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184056_b_h3_al.jpg",
+        "SeriesID": "C184056EN6FJY"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "100 Huntley Street",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p318257_b_h3_ab.jpg",
+        "SeriesID": "C318257EN29VO"
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "Huntley Hope",
+        "OriginalAirdate": 1493683200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14086135_st_h3_aa.jpg",
+        "SeriesID": "C14086135ENFOFD"
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "The King of Queens",
+        "EpisodeNumber": "S01E17",
+        "EpisodeTitle": "Court Date",
+        "Synopsis": "Doug encourages Carrie to date the police officer who stopped her, hoping to get out of her fourth traffic ticket of the year and avoid a hefty increase in their car insurance.",
+        "OriginalAirdate": 919036800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184408_b_h3_aa.jpg",
+        "SeriesID": "C184408EN6WDR"
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "Family Ties",
+        "EpisodeNumber": "S01E15",
+        "EpisodeTitle": "The Fugitive",
+        "Synopsis": "FBI agents pursue Elyse's brother (Tom Hanks), who allegedly embezzled $4.5 million from his company.",
+        "OriginalAirdate": 412387200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184019_b_h3_aa.jpg",
+        "SeriesID": "C184019ENZ7F7"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505874600,
+        "Title": "Life Today With James Robison",
+        "OriginalAirdate": 843436800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p429520_b_h3_ad.jpg",
+        "SeriesID": "C429520ENH1KX"
+      },
+      {
+        "StartTime": 1505874600,
+        "EndTime": 1505876400,
+        "Title": "100 Huntley Street",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p318257_b_h3_ab.jpg",
+        "SeriesID": "C318257EN29VO"
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505880000,
+        "Title": "Burning Questions",
+        "Synopsis": "A documentary about a daughter helping her family reconcile their tragic past as survivors of the Holocaust.",
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p345869_st_h3_aa.jpg",
+        "SeriesID": "C345869ENM0R5"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "40.1",
+    "GuideName": "CJMTDT",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/44790/s44790_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Focus Punjabi",
+        "OriginalAirdate": 1504483200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14445017_st_h3_aa.jpg",
+        "SeriesID": "C14445017ENIV4R"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "OMNI News: Cantonese Edition",
+        "OriginalAirdate": 1226275200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p838740_st_h3_aa.jpg",
+        "SeriesID": "C838740ENIWYF",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "Focus Cantonese",
+        "OriginalAirdate": 1431302400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p11774491_b_h3_aa.jpg",
+        "SeriesID": "C11774491ENSOB7",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "OMNI News: Mandarin Edition",
+        "OriginalAirdate": 1301270400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p8602093_st_h3_aa.jpg",
+        "SeriesID": "C8602093EN1IVT",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "Focus Mandarin",
+        "OriginalAirdate": 1431302400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p11774499_b_h3_aa.jpg",
+        "SeriesID": "C11774499ENH268",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Star April",
+        "OriginalAirdate": 1501459200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14356570_b_h3_aa.jpg",
+        "SeriesID": "C14356570ENJOW7",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505880000,
+        "Title": "Property Outlook",
+        "OriginalAirdate": 1165708800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p278184_b_h3_aa.jpg",
+        "SeriesID": "C278184EN83WH"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "41.1",
+    "GuideName": "CIIID41",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Entertainment Tonight Canada",
+        "Synopsis": "TV personality Yolanda Hadid discusses her latest book inside her New York City home; actress Sarah Gadon discusses the TV series \"Alias Grace.\"",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185821_b_h3_ad.jpg",
+        "SeriesID": "C185821ENJF1T"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505872800,
+        "Title": "R.I.P.D.",
+        "Synopsis": "Veteran lawman Roy Pulsifer (Jeff Bridges) works for the R.I.P.D., a legendary police force charged with finding monstrous spirits who are disguised as ordinary people but are trying to avoid their final judgment by hiding out among the living. When Roy and his new partner, Nick Walker (Ryan Reynolds), uncover a plot that could end all life, they must discover a way to restore the cosmic balance or else watch the tunnel to the afterlife start sending angry souls back to the world of th (1.5/4.0)",
+        "OriginalAirdate": 1379635200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9672434_v_h9_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p9672434_v_v5_af.jpg",
+        "SeriesID": "MV004509820000",
+        "Filter": [
+          "Movies",
+          "Comedy"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Somewhere Between",
+        "EpisodeNumber": "S01E10",
+        "EpisodeTitle": "One Must Die",
+        "Synopsis": "As Laura and Nico discover the reason for the vast conspiracy, they race against the clock to save Serena and Danny.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14045969_b_h3_aa.jpg",
+        "SeriesID": "C14045969ENBKRY",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878500,
+        "Title": "Global News at 11",
+        "OriginalAirdate": 1330473600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9123089_b_h3_aa.jpg",
+        "SeriesID": "C9123089ENXFUM",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878500,
+        "EndTime": 1505882220,
+        "Title": "The Late Show With Stephen Colbert",
+        "EpisodeNumber": "S03E06",
+        "EpisodeTitle": "Hillary Clinton; Emma Stone",
+        "Synopsis": "Former Secretary of State Hillary Clinton; actress Emma Stone.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10703384_b_h3_ac.jpg",
+        "SeriesID": "C10703384ENCZSN"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "41.2",
+    "GuideName": "CIII",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/10130/s10130_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Entertainment Tonight Canada",
+        "Synopsis": "TV personality Yolanda Hadid discusses her latest book inside her New York City home; actress Sarah Gadon discusses the TV series \"Alias Grace.\"",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p185821_b_h3_ad.jpg",
+        "SeriesID": "C185821ENJF1T"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505872800,
+        "Title": "R.I.P.D.",
+        "Synopsis": "Veteran lawman Roy Pulsifer (Jeff Bridges) works for the R.I.P.D., a legendary police force charged with finding monstrous spirits who are disguised as ordinary people but are trying to avoid their final judgment by hiding out among the living. When Roy and his new partner, Nick Walker (Ryan Reynolds), uncover a plot that could end all life, they must discover a way to restore the cosmic balance or else watch the tunnel to the afterlife start sending angry souls back to the world of th (1.5/4.0)",
+        "OriginalAirdate": 1379635200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9672434_v_h9_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p9672434_v_v5_af.jpg",
+        "SeriesID": "MV004509820000",
+        "Filter": [
+          "Movies",
+          "Comedy"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Somewhere Between",
+        "EpisodeNumber": "S01E10",
+        "EpisodeTitle": "One Must Die",
+        "Synopsis": "As Laura and Nico discover the reason for the vast conspiracy, they race against the clock to save Serena and Danny.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14045969_b_h3_aa.jpg",
+        "SeriesID": "C14045969ENBKRY",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878500,
+        "Title": "Global News at 11",
+        "OriginalAirdate": 1330473600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9123089_b_h3_aa.jpg",
+        "SeriesID": "C9123089ENXFUM",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878500,
+        "EndTime": 1505882220,
+        "Title": "The Late Show With Stephen Colbert",
+        "EpisodeNumber": "S03E06",
+        "EpisodeTitle": "Hillary Clinton; Emma Stone",
+        "Synopsis": "Former Secretary of State Hillary Clinton; actress Emma Stone.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10703384_b_h3_ac.jpg",
+        "SeriesID": "C10703384ENCZSN"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "47.1",
+    "GuideName": "CFMT",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/10105/s10105_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Paura d'Amare",
+        "OriginalAirdate": 1290902400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10178842_b_h3_aa.jpg",
+        "SeriesID": "C10178842ENI6BX",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "Ora Qui",
+        "OriginalAirdate": 1504224000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14490151_st_h3_aa.jpg",
+        "SeriesID": "C14490151ENVKSQ",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "Tutta la musica del cuore",
+        "OriginalAirdate": 1360454400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9733556_st_h3_aa.jpg",
+        "SeriesID": "C9733556ITV71Q",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505872800,
+        "Title": "Serbian Toronto TV",
+        "OriginalAirdate": 931564800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p899193_st_h3_aa.jpg",
+        "SeriesID": "C899193ENHI7K",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Noi Romanii",
+        "OriginalAirdate": 1032393600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p453221_st_h3_aa.jpg",
+        "SeriesID": "C453221ENU1Y6",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505880000,
+        "Title": "Forum TV",
+        "OriginalAirdate": 1350777600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p9546830_st_h3_aa.jpg",
+        "SeriesID": "C9546830EN5483"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "49.1",
+    "GuideName": "WNYODT",
+    "Affiliate": "MNT",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/51307/s51307_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "2 Broke Girls",
+        "EpisodeNumber": "S01E22",
+        "EpisodeTitle": "And the Big Buttercream Breakthrough",
+        "Synopsis": "Max and Caroline must deliver perfect cupcakes to Peach's socialite friends if Max wants to keep her babysitting job.",
+        "OriginalAirdate": 1335744000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p12229632_b_h3_aa.jpg",
+        "SeriesID": "C8680648ENA4IK"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "Who Wants to Be a Millionaire",
+        "EpisodeNumber": "S16E13",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184856_b_h3_ae.jpg",
+        "SeriesID": "C184856ENXNUJ"
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "Who Wants to Be a Millionaire",
+        "EpisodeNumber": "S16E14",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184856_b_h3_ae.jpg",
+        "SeriesID": "C184856ENXNUJ"
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872800,
+        "Title": "The X-Files",
+        "OriginalAirdate": 747619200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183870_b_h3_ag.jpg",
+        "SeriesID": "C183870EN3673",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "The X-Files",
+        "OriginalAirdate": 747619200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p183870_b_h3_ag.jpg",
+        "SeriesID": "C183870EN3673",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505878200,
+        "Title": "DailyMailTV",
+        "EpisodeNumber": "S01E03",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14402640_b_h3_aa.jpg",
+        "SeriesID": "C14402640ENNEU1",
+        "Filter": [
+          "News"
+        ]
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "Modern Family",
+        "EpisodeNumber": "S01E15",
+        "EpisodeTitle": "My Funky Valentine",
+        "Synopsis": "Claire and Phil plan a Valentine's Day excursion; Jay takes Gloria to a comedy show; Cameron and Mitchell try to play cupid for Manny.",
+        "OriginalAirdate": 1265760000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10778822_b_h3_aa.jpg",
+        "SeriesID": "C3560360ENGARG"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "49.2",
+    "GuideName": "WNYODT2",
+    "Affiliate": "American Sports Network",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Campus Insiders",
+        "OriginalAirdate": 1500249600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14367527_b_h3_aa.jpg",
+        "SeriesID": "C14367527EN9AZ4",
+        "Filter": [
+          "Sports"
+        ]
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505867400,
+        "Title": "Inside the League",
+        "OriginalAirdate": 1500249600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14367526_b_h3_aa.jpg",
+        "SeriesID": "C14367526ENVHT9",
+        "Filter": [
+          "Sports"
+        ]
+      },
+      {
+        "StartTime": 1505867400,
+        "EndTime": 1505869200,
+        "Title": "Campus Insiders",
+        "OriginalAirdate": 1500249600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14367527_b_h3_aa.jpg",
+        "SeriesID": "C14367527EN9AZ4",
+        "Filter": [
+          "Sports"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505871000,
+        "Title": "Inside the League",
+        "OriginalAirdate": 1500249600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14367526_b_h3_aa.jpg",
+        "SeriesID": "C14367526ENVHT9",
+        "Filter": [
+          "Sports"
+        ]
+      },
+      {
+        "StartTime": 1505871000,
+        "EndTime": 1505878200,
+        "Title": "Women's College Volleyball",
+        "EpisodeTitle": "San Jose State at Nevada",
+        "Team1": "San Jose State",
+        "Team2": "Nevada",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p191298_b_h3_ab.jpg",
+        "SeriesID": "C191298ENIGD5",
+        "Filter": [
+          "Sports"
+        ]
+      },
+      {
+        "StartTime": 1505878200,
+        "EndTime": 1505880000,
+        "Title": "The Rally",
+        "OriginalAirdate": 1463443200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p12906997_b_h3_ab.jpg",
+        "SeriesID": "C12906997EN01F8",
+        "Filter": [
+          "Sports"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "49.3",
+    "GuideName": "WNYODT3",
+    "Affiliate": "COMET",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/97051/s97051_h3_aa.png",
+    "Guide": [
+      {
+        "StartTime": 1505858400,
+        "EndTime": 1505865600,
+        "Title": "Terror Birds",
+        "Synopsis": "When friends begin hiking as they look for Maddy's father, a scientist's aviary may hold more than just clues.",
+        "OriginalAirdate": 1451606400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p12694385_v_v5_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p12694385_v_v5_aa.jpg",
+        "SeriesID": "MV008685810000",
+        "Filter": [
+          "Movies"
+        ]
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "Stargate SG-1",
+        "EpisodeNumber": "S09E19",
+        "EpisodeTitle": "Crusade",
+        "Synopsis": "Vala returns to Stargate Command with news about the Ori.",
+        "OriginalAirdate": 1141344000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184337_b_h3_ad.jpg",
+        "SeriesID": "C184337ENII10"
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872800,
+        "Title": "Stargate SG-1",
+        "EpisodeNumber": "S09E20",
+        "EpisodeTitle": "Camelot",
+        "Synopsis": "Mitchell and Daniel race to locate a device that will obliterate the Ori.",
+        "OriginalAirdate": 1141948800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184337_b_h3_ad.jpg",
+        "SeriesID": "C184337ENII10"
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "Stargate SG-1",
+        "EpisodeNumber": "S09E19",
+        "EpisodeTitle": "Crusade",
+        "Synopsis": "Vala returns to Stargate Command with news about the Ori.",
+        "OriginalAirdate": 1141344000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184337_b_h3_ad.jpg",
+        "SeriesID": "C184337ENII10"
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505880000,
+        "Title": "Stargate SG-1",
+        "EpisodeNumber": "S09E20",
+        "EpisodeTitle": "Camelot",
+        "Synopsis": "Mitchell and Daniel race to locate a device that will obliterate the Ori.",
+        "OriginalAirdate": 1141948800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p184337_b_h3_ad.jpg",
+        "SeriesID": "C184337ENII10"
+      }
+    ]
+  },
+  {
+    "GuideNumber": "49.4",
+    "GuideName": "WNYODT4",
+    "Affiliate": "GETTV",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/82563/s82563_h3_ba.png",
+    "Guide": [
+      {
+        "StartTime": 1505862000,
+        "EndTime": 1505865600,
+        "Title": "In the Heat of the Night",
+        "EpisodeNumber": "S04E16",
+        "EpisodeTitle": "Child of Promise",
+        "Synopsis": "Virgil's arrest of a young drug pusher has serious side effects for the youth's family, particularly his brother, and for Althea.",
+        "OriginalAirdate": 665712000,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p407203_b_h3_ai.jpg",
+        "SeriesID": "C407203ENOOK9",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505869200,
+        "Title": "In the Heat of the Night",
+        "EpisodeNumber": "S04E17",
+        "EpisodeTitle": "Paper Castles",
+        "Synopsis": "Virgil suspects the promoters of a crooked real estate deal in the murder of his friend, even though their alibi appears to be airtight.",
+        "OriginalAirdate": 666316800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p407203_b_h3_ai.jpg",
+        "SeriesID": "C407203ENOOK9",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505869200,
+        "EndTime": 1505872800,
+        "Title": "In the Heat of the Night",
+        "EpisodeNumber": "S04E18",
+        "EpisodeTitle": "Laid to Waste",
+        "Synopsis": "A young blind woman reports hearing what she thinks is a murder, but Gillespie and Tibbs cannot find a body.",
+        "OriginalAirdate": 666921600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p407203_b_h3_ai.jpg",
+        "SeriesID": "C407203ENOOK9",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505872800,
+        "EndTime": 1505876400,
+        "Title": "In the Heat of the Night",
+        "EpisodeNumber": "S04E19",
+        "EpisodeTitle": "First Deadly Sin",
+        "Synopsis": "A man prohibits his son from contacting the police after the boy witnesses a rape, fearing it will affect his future.",
+        "OriginalAirdate": 667526400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p407203_b_h3_ai.jpg",
+        "SeriesID": "C407203ENOOK9",
+        "Filter": [
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505884500,
+        "Title": "Geronimo",
+        "Synopsis": "In 1858, a company of Mexican soldiers seeking to expand their country's borders attacks an Apache camp, killing many men, women and children. Among the dead are the mother, wife and three children of Geronimo (Joseph Runningfox), a young Apache warrior. Angered by the slaughter of his family and his people, Geronimo joins chief Cochise (August Schellenberg) in his quest for revenge, eventually rising through the ranks to become a leader in the Apache Wars against the United States. (3.0/4.0)",
+        "OriginalAirdate": 725846400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p15140_b_h3_aa.jpg",
+        "PosterURL": "http://img.hdhomerun.com/tmsimg/assets/p15140_b_v3_aa.jpg",
+        "SeriesID": "MV000377680000",
+        "Filter": [
+          "Movies",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "GuideNumber": "57.1",
+    "GuideName": "CITYDT",
+    "ImageURL": "http://img.hdhomerun.com/tmsimg/h3/NowShowing/34200/s34200_h3_ba.png",
+    "Guide": [
+      {
+        "StartTime": 1505863800,
+        "EndTime": 1505865600,
+        "Title": "Modern Family",
+        "EpisodeNumber": "S01E16",
+        "EpisodeTitle": "Fears",
+        "Synopsis": "Phil tries to conquer his fear of the dark when he and Luke go on a discovery expedition underneath the house; Mitchell and Cameron invite Lily's pediatrician over for brunch.",
+        "OriginalAirdate": 1267574400,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p10778822_b_h3_aa.jpg",
+        "SeriesID": "C3560360ENGARG"
+      },
+      {
+        "StartTime": 1505865600,
+        "EndTime": 1505872860,
+        "Title": "America's Got Talent",
+        "EpisodeNumber": "S12E23",
+        "EpisodeTitle": "Live Show Finale",
+        "Synopsis": "The top 10 acts compete one final time.",
+        "OriginalAirdate": 1505779200,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p13949024_b_h3_aa.jpg",
+        "SeriesID": "C187477EN5KRA",
+        "Filter": [
+          "Comedy"
+        ]
+      },
+      {
+        "StartTime": 1505872860,
+        "EndTime": 1505876400,
+        "Title": "The Orville",
+        "EpisodeNumber": "S01E01",
+        "EpisodeTitle": "Old Wounds",
+        "Synopsis": "Ed Mercer's enthusiasm about his promotion to captain dampens when his ex-wife, Kelly, gets assigned to be his first officer; an alien race ambushes the crew in an attempt to steal a time-accelerating device.",
+        "OriginalAirdate": 1505001600,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p14154433_b_h3_ab.jpg",
+        "SeriesID": "C14154433ENRNML",
+        "Filter": [
+          "Comedy",
+          "Drama"
+        ]
+      },
+      {
+        "StartTime": 1505876400,
+        "EndTime": 1505880000,
+        "Title": "CityNewsTonight",
+        "OriginalAirdate": 1253404800,
+        "ImageURL": "http://img.hdhomerun.com/tmsimg/assets/p7850464_st_h3_aa.jpg",
+        "SeriesID": "C7850464ENM6GG",
+        "Filter": [
+          "News"
+        ]
+      }
+    ]
+  }
+]
