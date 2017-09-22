@@ -23,6 +23,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
+import android.util.Log;
 
 import com.dbiapps.hdhr.hdhrimporter.SampleJobService;
 import com.google.android.media.tv.companionlibrary.EpgSyncJobService;
@@ -36,6 +37,7 @@ import java.util.List;
 public class RichBootReceiver extends BroadcastReceiver{
     @Override
     public void onReceive(Context context, Intent intent) {
+        Log.d(this.getClass().getName(), "onReceive");
         JobScheduler jobScheduler =
                 (JobScheduler) context.getSystemService(Context.JOB_SCHEDULER_SERVICE);
         // If there are not pending jobs. Create a sync job and schedule it.
@@ -47,15 +49,6 @@ public class RichBootReceiver extends BroadcastReceiver{
                 // Set up periodic sync only when input has set up.
                 EpgSyncJobService.setUpPeriodicSync(context, inputId,
                         new ComponentName(context, SampleJobService.class));
-            }
-            return;
-        }
-        // On L/L-MR1, reschedule the pending jobs.
-        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.LOLLIPOP_MR1) {
-            for (JobInfo job : pendingJobs) {
-                if (job.isPersisted()) {
-                    jobScheduler.schedule(job);
-                }
             }
         }
     }

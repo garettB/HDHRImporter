@@ -16,6 +16,7 @@
 package com.dbiapps.hdhr.hdhrimporter;
 
 import android.net.Uri;
+import android.util.Log;
 
 import com.dbiapps.hdhr.hdhrimporter.guideconversion.JsonHdhrTvParser;
 import com.dbiapps.hdhr.hdhrimporter.rich.RichFeedUtil;
@@ -33,6 +34,7 @@ public class SampleJobService extends EpgSyncJobService {
 
     @Override
     public List<Channel> getChannels() {
+        Log.d(this.getClass().getName(), "getChannels");
         // Add channels through an JSONEPG file
         JsonHdhrTvParser.TvListing listings = RichFeedUtil.getRichTvListings(this);
         List<Channel> channelList = new ArrayList<>(listings.getChannels());

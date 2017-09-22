@@ -29,7 +29,7 @@ public class EpgJsonToObjects {
 
             JSONArray programJsonArray = ChannelJsonToObject.getAssociatedPrograms(channelJsonObject);
             for (int p = 0 ; p < programJsonArray.length() ; ++p){
-                Program newProgram = ProgramJsonToObject.convertFromJson(newChannel, programJsonArray.getJSONObject(p), "");
+                Program newProgram = ProgramJsonToObject.convertFromJson(newChannel, programJsonArray.getJSONObject(p), "http://192.168.86.215");
                 programs.add(newProgram);
             }
 

@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        //Log.d("JSON Thing", "" + hello());
+        Log.d("JSON Thing", "" + hello());
         JsonHdhrTvParser.TvListing tvListing = RichFeedUtil.getRichTvListings(getApplicationContext());
         if (tvListing != null) {
             Log.d("Channels", tvListing.getChannels().size() + "");

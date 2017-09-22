@@ -83,8 +83,8 @@ public class ProgramJsonToObject {
         internalProviderData.setVideoUrl(videoUrl);
 
         Program program = new Program.Builder(channel)
-                .setStartTimeUtcMillis(startTime)
-                .setEndTimeUtcMillis(endTime)
+                .setStartTimeUtcMillis(0)
+                .setEndTimeUtcMillis(734*1000)
                 .setTitle(title)
                 .setThumbnailUri(imageUri)
                 .setPosterArtUri(imageUri)

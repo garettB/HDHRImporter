@@ -29,7 +29,7 @@ public class ChannelJsonToObject {
         String channelIconUrl = channelJsonObject.optString(CHANNEL_ICON_URL);
 
         Channel channel = new Channel.Builder()
-                .setOriginalNetworkId(5)
+                .setOriginalNetworkId((int)(Double.parseDouble(channelNumber) * 10))
                 .setDisplayNumber(channelNumber)
                 .setDisplayName(channelName)
                 .setNetworkAffiliation(affiliateName)
