@@ -53,8 +53,10 @@ public class ProgramJsonToObject {
         String imageUri = programJsonObject.getString(IMAGE_URL);
 
         List<String> genres = new ArrayList<>();
-        JSONArray genresArray = programJsonObject.getJSONArray(GENRES_ARRAY);
+        genres.add("OTHER");
+        JSONArray genresArray = programJsonObject.optJSONArray(GENRES_ARRAY);
         if (genresArray != null) {
+            genres.clear();
             for (int i = 0; i < genresArray.length(); ++i) {
                 genres.add(genresArray.getString(i));
             }
@@ -63,7 +65,7 @@ public class ProgramJsonToObject {
         int seasonNumber = -1;
         int episodeNumber = -1;
         String episode = programJsonObject.optString(EPISODE_NUMBER);
-        if (!episode.isEmpty()){
+        if (!episode.isEmpty()) {
             Pair<String, String> episodeString = parseEpisodeAndSeason(episode);
             seasonNumber = Integer.parseInt(episodeString.first);
             episodeNumber = Integer.parseInt(episodeString.second);
@@ -74,7 +76,7 @@ public class ProgramJsonToObject {
         String episodeSynopsis = programJsonObject.optString(SYNOPSIS);
 
 
-        String videoUrl = tunerUrl + ":5004/" + channel.getId();
+        String videoUrl = tunerUrl + ":5004/auto/v/" + channel.getId();
 
         InternalProviderData internalProviderData = new InternalProviderData();
         internalProviderData.setVideoType(TvContractUtils.SOURCE_TYPE_HLS);

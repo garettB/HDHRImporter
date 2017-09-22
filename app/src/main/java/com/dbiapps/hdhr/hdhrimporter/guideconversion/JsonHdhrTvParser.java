@@ -112,7 +112,7 @@ public class JsonHdhrTvParser {
 
         JSONArray parsedEpgFromInputStream;
         try {
-            parsedEpgFromInputStream = new JSONArray(total);
+            parsedEpgFromInputStream = new JSONArray(total.toString());
         } catch (JSONException e) {
             throw new JsonTvParseException("Failed to parse EPG: " + e.getMessage());
         }

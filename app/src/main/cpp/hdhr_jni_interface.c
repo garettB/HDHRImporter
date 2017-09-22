@@ -27,27 +27,33 @@
  */
 JNIEXPORT jstring JNICALL
 Java_com_dbiapps_hdhr_hdhrimporter_MainActivity_hello(JNIEnv *env,
-                                                     jobject thiz) {
+                                                      jobject thiz) {
 
 
     struct hdhomerun_discover_device_t discover_array[10];
     int num_found = 0;
 
-    num_found = hdhomerun_discover_find_devices_custom_v2(0, HDHOMERUN_DEVICE_TYPE_TUNER, HDHOMERUN_DEVICE_ID_WILDCARD, discover_array, 10);
+    num_found = hdhomerun_discover_find_devices_custom_v2(0, HDHOMERUN_DEVICE_TYPE_TUNER,
+                                                          HDHOMERUN_DEVICE_ID_WILDCARD,
+                                                          discover_array, 10);
     //hdhomerun_discover_find_devices_custom(0, HDHOMERUN_DEVICE_TYPE_TUNER, HDHOMERUN_DEVICE_ID_WILDCARD, discover_array, 10);
 
-    printf("discover(): num_found %d",num_found );
+    printf("discover(): num_found %d", num_found);
 
 
     jstring result;
-    if(num_found < 0)
-    {
+    if (num_found < 0) {
         printf("Error discovering devices");
-        result = (*env)->NewStringUTF(env,"nadda");
+        result = (*env)->NewStringUTF(env, "nadda");
     } else {
 
         printf("device_auth: %s", discover_array[0].device_auth);
-        result = (*env)->NewStringUTF(env,("{\"device_url\":\"%s\", \"device_auth\" : \"%s\"}", discover_array[0].base_url, discover_array[0].device_auth));
+        char device_url_and_auth[100] = "{\"device_url\":\"";
+        strcat(device_url_and_auth, discover_array[0].base_url);
+        strcat(device_url_and_auth, "\",\"device_auth\":\"");
+        strcat(device_url_and_auth, discover_array[0].device_auth);
+        strcat(device_url_and_auth, "\"}");
+        result = (*env)->NewStringUTF(env, device_url_and_auth);
         //stream URL example http://192.168.86.215:5004/auto/v23.1
     }
 

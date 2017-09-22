@@ -21,6 +21,8 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.dbiapps.hdhr.hdhrimporter.R;
+import com.dbiapps.hdhr.hdhrimporter.guideconversion.JsonHdhrTvParser;
+import com.dbiapps.hdhr.hdhrimporter.rich.RichFeedUtil;
 
 /**
  * MainActivity class that loads {@link MainFragment}.
@@ -30,7 +32,12 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        Log.d("JSON Thing", "" + hello());
+        //Log.d("JSON Thing", "" + hello());
+        JsonHdhrTvParser.TvListing tvListing = RichFeedUtil.getRichTvListings(getApplicationContext());
+        if (tvListing != null) {
+            Log.d("Channels", tvListing.getChannels().size() + "");
+            Log.d("Programs", tvListing.getAllPrograms().size() + "");
+        }
     }
 
     public native String hello();
