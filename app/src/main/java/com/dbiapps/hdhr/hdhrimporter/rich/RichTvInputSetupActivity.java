@@ -19,7 +19,7 @@ package com.dbiapps.hdhr.hdhrimporter.rich;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.dbiaps.hdhr.hdhrimporter.R;
+import com.dbiapps.hdhr.hdhrimporter.R;
 
 /**
  * The setup activity for demonstrating {@link RichTvInputService}.

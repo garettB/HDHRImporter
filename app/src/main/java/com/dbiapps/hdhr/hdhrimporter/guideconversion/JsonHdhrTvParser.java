@@ -15,25 +15,24 @@ package com.dbiapps.hdhr.hdhrimporter.guideconversion;
  * limitations under the License.
  */
 
-import android.graphics.Color;
-import android.media.tv.TvContentRating;
 import android.support.annotation.NonNull;
-import android.text.TextUtils;
-import android.util.Log;
 
 import com.google.android.media.tv.companionlibrary.model.Channel;
-import com.google.android.media.tv.companionlibrary.model.InternalProviderData;
 import com.google.android.media.tv.companionlibrary.model.Program;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Locale;
+
+import static com.google.android.media.tv.companionlibrary.XmlTvParser.*;
 
 /**
  * JSONTV document parser which conforms to http://wiki.jsontv.org/index.php/Main_Page
@@ -87,340 +86,70 @@ import java.util.Locale;
  * </p>
  */
 public class JsonHdhrTvParser {
-    private static final String TAG_TV = "tv";
-    private static final String TAG_CHANNEL = "channel";
-    private static final String TAG_DISPLAY_NAME = "display-name";
-    private static final String TAG_ICON = "icon";
-    private static final String TAG_APP_LINK = "app-link";
-    private static final String TAG_PROGRAM = "programme";
-    private static final String TAG_TITLE = "title";
-    private static final String TAG_DESC = "desc";
-    private static final String TAG_CATEGORY = "category";
-    private static final String TAG_RATING = "rating";
-    private static final String TAG_VALUE = "value";
-    private static final String TAG_DISPLAY_NUMBER = "display-number";
-    private static final String TAG_AD = "advertisement";
-    private static final String TAG_REQUEST_URL = "request-url";
-
-    private static final String ATTR_ID = "id";
-    private static final String ATTR_START = "start";
-    private static final String ATTR_STOP = "stop";
-    private static final String ATTR_CHANNEL = "channel";
-    private static final String ATTR_SYSTEM = "system";
-    private static final String ATTR_SRC = "src";
-    private static final String ATTR_REPEAT_PROGRAMS = "repeat-programs";
-    private static final String ATTR_VIDEO_SRC = "video-src";
-    private static final String ATTR_VIDEO_TYPE = "video-type";
-    private static final String ATTR_APP_LINK_TEXT = "text";
-    private static final String ATTR_APP_LINK_COLOR = "color";
-    private static final String ATTR_APP_LINK_POSTER_URI = "poster-uri";
-    private static final String ATTR_APP_LINK_INTENT_URI = "intent-uri";
-
-    private static final String VALUE_VIDEO_TYPE_HLS = "HLS";
-
-    private static final String ANDROID_TV_RATING = "com.android.tv";
-
-    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyyMMddHHmmss Z",
-            Locale.US);
-    private static final String TAG = "JsonHdhrTvParser";
 
     private JsonHdhrTvParser() {
     }
 
     /**
-     * Converts a TV ratings from an JSON file to {@link TvContentRating}.
-     *
-     * @param rating An JsonTvRating.
-     * @return A TvContentRating.
-     */
-    private static TvContentRating jsonTvRatingToTvContentRating(
-            JsonHdhrTvParser.JsonTvRating rating) {
-        if (ANDROID_TV_RATING.equals(rating.system)) {
-            return TvContentRating.unflattenFromString(rating.value);
-        }
-        return null;
-    }
-
-    /**
      * Reads an InputStream and parses the data to identify channels and programs
      *
-     * @param inputStream The InputStream of your data
+     * @param epgJsonArray The JSON Array formatted EPG returned from your HDHR
      * @return A TvListing containing your channels and programs
      */
-    public static JsonHdhrTvParser.TvListing parse(@NonNull InputStream inputStream) throws JsonHdhrTvParser.JsonTvParseException {
-        return parse(inputStream);
-    }
 
-    /**
-     * Reads an InputStream and parses the data to identify channels and programs
-     *
-     * @param inputStream The InputStream of your data
-     * @return A TvListing containing your channels and programs
-     */
-    private static JsonHdhrTvParser.TvListing parse(@NonNull InputStream inputStream)
-            throws JsonHdhrTvParser.JsonTvParseException {
+    public static TvListing parse(@NonNull InputStream inputStream) throws JsonTvParseException {
+        StringBuilder total;
         try {
-            parser.setInput(inputStream, null);
-            int eventType = parser.next();
-            if (eventType != JsonPullParser.START_TAG || !TAG_TV.equals(parser.getName())) {
-                throw new JsonHdhrTvParser.JsonTvParseException(
-                        "Input stream does not contain an JSONTV description");
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+            total = new StringBuilder(inputStream.available());
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                total.append(line).append('\n');
             }
-            return parseTvListings(parser);
-        } catch (JsonPullParserException | IOException | ParseException e) {
-            Log.w(TAG, e.getMessage());
+        } catch (IOException e) {
+            return null;
         }
-        return null;
+
+        JSONArray parsedEpgFromInputStream;
+        try {
+            parsedEpgFromInputStream = new JSONArray(total);
+        } catch (JSONException e) {
+            throw new JsonTvParseException("Failed to parse EPG: " + e.getMessage());
+        }
+
+        return parse(parsedEpgFromInputStream);
     }
 
-    private static JsonHdhrTvParser.TvListing parseTvListings(JsonPullParser parser)
-            throws IOException, JsonPullParserException, ParseException {
-        List<Channel> channels = new ArrayList<>();
-        List<Program> programs = new ArrayList<>();
-        while (parser.next() != JsonPullParser.END_DOCUMENT) {
-            if (parser.getEventType() == JsonPullParser.START_TAG
-                    && TAG_CHANNEL.equalsIgnoreCase(parser.getName())) {
-                channels.add(parseChannel(parser));
-            }
-            if (parser.getEventType() == JsonPullParser.START_TAG
-                    && TAG_PROGRAM.equalsIgnoreCase(parser.getName())) {
-                programs.add(parseProgram(parser));
-            }
+    /**
+     * Reads an InputStream and parses the data to identify channels and programs
+     *
+     * @param epgJsonArray The JSON Array formatted EPG returned from your HDHR
+     * @return A TvListing containing your channels and programs
+     */
+
+    public static TvListing parse(@NonNull JSONArray epgJsonArray) throws JsonTvParseException {
+        EpgJsonToObjects epgJsonToObjects = new EpgJsonToObjects();
+        try {
+            epgJsonToObjects.parseEpg(epgJsonArray);
+        } catch (JSONException e) {
+            throw new JsonTvParseException("Failed to parse EPG: " + e.getMessage());
         }
-        return new JsonHdhrTvParser.TvListing(channels, programs);
+
+        return new TvListing(epgJsonToObjects.getChannels(), epgJsonToObjects.getPrograms());
     }
 
-    private static Channel parseChannel(JsonPullParser parser)
-            throws IOException, JsonPullParserException, ParseException {
-        String id = null;
-        boolean repeatPrograms = false;
-        for (int i = 0; i < parser.getAttributeCount(); ++i) {
-            String attr = parser.getAttributeName(i);
-            String value = parser.getAttributeValue(i);
-            if (ATTR_ID.equalsIgnoreCase(attr)) {
-                id = value;
-            } else if (ATTR_REPEAT_PROGRAMS.equalsIgnoreCase(attr)) {
-                repeatPrograms = "TRUE".equalsIgnoreCase(value);
-            }
+    /**
+     * An exception that indicates the provided JSONTV file is invalid or improperly formatted.
+     */
+    public static class JsonTvParseException extends Exception {
+        JsonTvParseException(String msg) {
+            super(msg);
         }
-        String displayName = null;
-        String displayNumber = null;
-        JsonHdhrTvParser.JsonTvIcon icon = null;
-        JsonHdhrTvParser.JsonTvAppLink appLink = null;
-        while (parser.next() != JsonPullParser.END_DOCUMENT) {
-            if (parser.getEventType() == JsonPullParser.START_TAG) {
-                if (TAG_DISPLAY_NAME.equalsIgnoreCase(parser.getName())
-                        && displayName == null) {
-                    displayName = parser.nextText();
-                } else if (TAG_DISPLAY_NUMBER.equalsIgnoreCase(parser.getName())
-                        && displayNumber == null) {
-                    displayNumber = parser.nextText();
-                } else if (TAG_ICON.equalsIgnoreCase(parser.getName()) && icon == null) {
-                    icon = parseIcon(parser);
-                } else if (TAG_APP_LINK.equalsIgnoreCase(parser.getName()) && appLink == null) {
-                    appLink = parseAppLink(parser);
-                } else if (TAG_AD.equalsIgnoreCase(parser.getName()) && advertisement == null) {
-                    advertisement = parseAd(parser, TAG_CHANNEL);
-                }
-            } else if (TAG_CHANNEL.equalsIgnoreCase(parser.getName())
-                    && parser.getEventType() == JsonPullParser.END_TAG) {
-                break;
-            }
-        }
-        if (TextUtils.isEmpty(id) || TextUtils.isEmpty(displayName)) {
-            throw new IllegalArgumentException("id and display-name can not be null.");
-        }
-
-        // Developers should assign original network ID in the right way not using the fake ID.
-        InternalProviderData internalProviderData = new InternalProviderData();
-        internalProviderData.setRepeatable(repeatPrograms);
-        Channel.Builder builder = new Channel.Builder()
-                .setDisplayName(displayName)
-                .setDisplayNumber(displayNumber)
-                .setOriginalNetworkId(id.hashCode())
-                .setInternalProviderData(internalProviderData)
-                .setTransportStreamId(0)
-                .setServiceId(0);
-        if (icon != null) {
-            builder.setChannelLogo(icon.src);
-        }
-        if (appLink != null) {
-            builder.setAppLinkColor(appLink.color)
-                    .setAppLinkIconUri(appLink.icon.src)
-                    .setAppLinkIntentUri(appLink.intentUri)
-                    .setAppLinkPosterArtUri(appLink.posterUri)
-                    .setAppLinkText(appLink.text);
-        }
-        return builder.build();
-    }
-
-    private static Program parseProgram(JsonPullParser parser)
-            throws IOException, JsonPullParserException, ParseException {
-        String channelId = null;
-        Long startTimeUtcMillis = null;
-        Long endTimeUtcMillis = null;
-        String videoSrc = null;
-        int videoType = TvContractUtils.SOURCE_TYPE_HTTP_PROGRESSIVE;
-        for (int i = 0; i < parser.getAttributeCount(); ++i) {
-            String attr = parser.getAttributeName(i);
-            String value = parser.getAttributeValue(i);
-            if (ATTR_CHANNEL.equalsIgnoreCase(attr)) {
-                channelId = value;
-            } else if (ATTR_START.equalsIgnoreCase(attr)) {
-                startTimeUtcMillis = DATE_FORMAT.parse(value).getTime();
-            } else if (ATTR_STOP.equalsIgnoreCase(attr)) {
-                endTimeUtcMillis = DATE_FORMAT.parse(value).getTime();
-            } else if (ATTR_VIDEO_SRC.equalsIgnoreCase(attr)) {
-                videoSrc = value;
-            } else if (ATTR_VIDEO_TYPE.equalsIgnoreCase(attr)) {
-                if (VALUE_VIDEO_TYPE_HTTP_PROGRESSIVE.equals(value)) {
-                    videoType = TvContractUtils.SOURCE_TYPE_HTTP_PROGRESSIVE;
-                } else if (VALUE_VIDEO_TYPE_HLS.equals(value)) {
-                    videoType = TvContractUtils.SOURCE_TYPE_HLS;
-                } else if (VALUE_VIDEO_TYPE_MPEG_DASH.equals(value)) {
-                    videoType = TvContractUtils.SOURCE_TYPE_MPEG_DASH;
-                }
-            }
-        }
-        String title = null;
-        String description = null;
-        JsonHdhrTvParser.JsonTvIcon icon = null;
-        List<String> category = new ArrayList<>();
-        List<TvContentRating> rating = new ArrayList<>();
-        List<Advertisement> ads = new ArrayList<>();
-        while (parser.next() != JsonPullParser.END_DOCUMENT) {
-            String tagName = parser.getName();
-            if (parser.getEventType() == JsonPullParser.START_TAG) {
-                if (TAG_TITLE.equalsIgnoreCase(parser.getName())) {
-                    title = parser.nextText();
-                } else if (TAG_DESC.equalsIgnoreCase(tagName)) {
-                    description = parser.nextText();
-                } else if (TAG_ICON.equalsIgnoreCase(tagName)) {
-                    icon = parseIcon(parser);
-                } else if (TAG_CATEGORY.equalsIgnoreCase(tagName)) {
-                    category.add(parser.nextText());
-                } else if (TAG_RATING.equalsIgnoreCase(tagName)) {
-                    TvContentRating jsonTvRating = jsonTvRatingToTvContentRating(parseRating(parser));
-                    if (jsonTvRating != null)
-                        rating.add(jsonTvRating);
-                } else if (TAG_AD.equalsIgnoreCase(tagName)) {
-                    ads.add(parseAd(parser, TAG_PROGRAM));
-                }
-            } else if (TAG_PROGRAM.equalsIgnoreCase(tagName)
-                    && parser.getEventType() == JsonPullParser.END_TAG) {
-                break;
-            }
-        }
-        if (TextUtils.isEmpty(channelId) || startTimeUtcMillis == null
-                || endTimeUtcMillis == null) {
-            throw new IllegalArgumentException("channel, start, and end can not be null.");
-        }
-        InternalProviderData internalProviderData = new InternalProviderData();
-        internalProviderData.setVideoType(videoType);
-        internalProviderData.setVideoUrl(videoSrc);
-        return new Program.Builder()
-                .setChannelId(channelId.hashCode())
-                .setTitle(title)
-                .setDescription(description)
-                .setPosterArtUri(icon.src)
-                .setCanonicalGenres(category.toArray(new String[category.size()]))
-                .setStartTimeUtcMillis(startTimeUtcMillis)
-                .setEndTimeUtcMillis(endTimeUtcMillis)
-                .setContentRatings(rating.toArray(new TvContentRating[rating.size()]))
-                // NOTE: {@code COLUMN_INTERNAL_PROVIDER_DATA} is a private field
-                // where TvInputService can store anything it wants. Here, we store
-                // video type and video URL so that TvInputService can play the
-                // video later with this field.
-                .setInternalProviderData(internalProviderData)
-                .build();
-    }
-
-    private static JsonHdhrTvParser.JsonTvIcon parseIcon(JsonPullParser parser)
-            throws IOException, JsonPullParserException {
-        String src = null;
-        for (int i = 0; i < parser.getAttributeCount(); ++i) {
-            String attr = parser.getAttributeName(i);
-            String value = parser.getAttributeValue(i);
-            if (ATTR_SRC.equalsIgnoreCase(attr)) {
-                src = value;
-            }
-        }
-        while (parser.next() != JsonPullParser.END_DOCUMENT) {
-            if (TAG_ICON.equalsIgnoreCase(parser.getName())
-                    && parser.getEventType() == JsonPullParser.END_TAG) {
-                break;
-            }
-        }
-        if (TextUtils.isEmpty(src)) {
-            throw new IllegalArgumentException("Icon src cannot be null.");
-        }
-        return new JsonHdhrTvParser.JsonTvIcon(src);
-    }
-
-    private static JsonHdhrTvParser.JsonTvAppLink parseAppLink(JsonPullParser parser)
-            throws IOException, JsonPullParserException {
-        String text = null;
-        Integer color = null;
-        String posterUri = null;
-        String intentUri = null;
-        for (int i = 0; i < parser.getAttributeCount(); ++i) {
-            String attr = parser.getAttributeName(i);
-            String value = parser.getAttributeValue(i);
-            if (ATTR_APP_LINK_TEXT.equalsIgnoreCase(attr)) {
-                text = value;
-            } else if (ATTR_APP_LINK_COLOR.equalsIgnoreCase(attr)) {
-                color = Color.parseColor(value);
-            } else if (ATTR_APP_LINK_POSTER_URI.equalsIgnoreCase(attr)) {
-                posterUri = value;
-            } else if (ATTR_APP_LINK_INTENT_URI.equalsIgnoreCase(attr)) {
-                intentUri = value;
-            }
-        }
-
-        JsonHdhrTvParser.JsonTvIcon icon = null;
-        while (parser.next() != JsonPullParser.END_DOCUMENT) {
-            if (parser.getEventType() == JsonPullParser.START_TAG
-                    && TAG_ICON.equalsIgnoreCase(parser.getName()) && icon == null) {
-                icon = parseIcon(parser);
-            } else if (TAG_APP_LINK.equalsIgnoreCase(parser.getName())
-                    && parser.getEventType() == JsonPullParser.END_TAG) {
-                break;
-            }
-        }
-
-        return new JsonHdhrTvParser.JsonTvAppLink(text, color, posterUri, intentUri, icon);
-    }
-
-    private static JsonHdhrTvParser.JsonTvRating parseRating(JsonPullParser parser)
-            throws IOException, JsonPullParserException {
-        String system = null;
-        for (int i = 0; i < parser.getAttributeCount(); ++i) {
-            String attr = parser.getAttributeName(i);
-            String value = parser.getAttributeValue(i);
-            if (ATTR_SYSTEM.equalsIgnoreCase(attr)) {
-                system = value;
-            }
-        }
-        String value = null;
-        while (parser.next() != JsonPullParser.END_DOCUMENT) {
-            if (parser.getEventType() == JsonPullParser.START_TAG) {
-                if (TAG_VALUE.equalsIgnoreCase(parser.getName())) {
-                    value = parser.nextText();
-                }
-            } else if (TAG_RATING.equalsIgnoreCase(parser.getName())
-                    && parser.getEventType() == JsonPullParser.END_TAG) {
-                break;
-            }
-        }
-        if (TextUtils.isEmpty(system) || TextUtils.isEmpty(value)) {
-            throw new IllegalArgumentException("system and value cannot be null.");
-        }
-        return new JsonHdhrTvParser.JsonTvRating(system, value);
     }
 
     /**
      * Contains a list of channels and corresponding programs that have been generated from parsing
-     * an JSON TV file.
+     * an XML TV file.
      */
     public static class TvListing {
         private List<Channel> mChannels;
@@ -432,7 +161,7 @@ public class JsonHdhrTvParser {
             this.mPrograms = new ArrayList<>(programs);
             // Place programs into the epg map
             mProgramMap = new HashMap<>();
-            for (Channel channel: channels) {
+            for (Channel channel : channels) {
                 List<Program> programsForChannel = new ArrayList<>();
                 Iterator<Program> programIterator = programs.iterator();
                 while (programIterator.hasNext()) {
@@ -449,21 +178,22 @@ public class JsonHdhrTvParser {
         }
 
         /**
-         * @return All channels found by the JsonHdhrTvParser.
+         * @return All channels found by the XmlTvParser.
          */
         public List<Channel> getChannels() {
             return mChannels;
         }
 
         /**
-         * @return All programs found by the JsonHdhrTvParser.
+         * @return All programs found by the XmlTvParser.
          */
         public List<Program> getAllPrograms() {
             return mPrograms;
         }
 
         /**
-         * Returns a list of programs found by the JsonHdhrTvParser for a given channel.
+         * Returns a list of programs found by the XmlTvParser for a given channel.
+         *
          * @param channel The channel to obtain programs for.
          * @return A list of programs that belong to that channel.
          */
@@ -472,47 +202,5 @@ public class JsonHdhrTvParser {
         }
     }
 
-    private static class JsonTvIcon {
-        public final String src;
 
-        private JsonTvIcon(String src) {
-            this.src = src;
-        }
-    }
-
-    private static class JsonTvRating {
-        public final String system;
-        public final String value;
-
-        public JsonTvRating(String system, String value) {
-            this.system = system;
-            this.value = value;
-        }
-    }
-
-    private static class JsonTvAppLink {
-        public final String text;
-        public final Integer color;
-        public final String posterUri;
-        public final String intentUri;
-        public final JsonHdhrTvParser.JsonTvIcon icon;
-
-        public JsonTvAppLink(String text, Integer color, String posterUri, String intentUri,
-                            JsonHdhrTvParser.JsonTvIcon icon) {
-            this.text = text;
-            this.color = color;
-            this.posterUri = posterUri;
-            this.intentUri = intentUri;
-            this.icon = icon;
-        }
-    }
-
-    /**
-     * An exception that indicates the provided JSONTV file is invalid or improperly formatted.
-     */
-    public static class JsonTvParseException extends Exception {
-        public JsonTvParseException(String msg) {
-            super(msg);
-        }
-    }
 }

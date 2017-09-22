@@ -39,7 +39,7 @@ import android.view.accessibility.CaptioningManager;
 import com.dbiapps.hdhr.hdhrimporter.SampleJobService;
 import com.dbiapps.hdhr.hdhrimporter.player.DemoPlayer;
 import com.dbiapps.hdhr.hdhrimporter.player.RendererBuilderFactory;
-import com.dbiaps.hdhr.hdhrimporter.R;
+import com.dbiapps.hdhr.hdhrimporter.R;
 import com.google.android.exoplayer.ExoPlayer;
 import com.google.android.exoplayer.MediaFormat;
 import com.google.android.exoplayer.text.CaptionStyleCompat;

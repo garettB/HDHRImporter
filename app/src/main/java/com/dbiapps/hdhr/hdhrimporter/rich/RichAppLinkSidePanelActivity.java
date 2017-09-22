@@ -26,7 +26,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.dbiaps.hdhr.hdhrimporter.R;
+import com.dbiapps.hdhr.hdhrimporter.R;
 import com.google.android.media.tv.companionlibrary.model.Channel;
 import com.google.android.media.tv.companionlibrary.utils.TvContractUtils;
 

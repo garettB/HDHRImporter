@@ -32,7 +32,7 @@ import android.support.v17.leanback.widget.ListRowPresenter;
 import android.support.v17.leanback.widget.OnActionClickedListener;
 import android.support.v4.content.ContextCompat;
 
-import com.dbiaps.hdhr.hdhrimporter.R;
+import com.dbiapps.hdhr.hdhrimporter.R;
 
 /**
  * Fragment that shows a simple details fragment UI.

@@ -69,12 +69,33 @@ public class ProgramJsonToObject {
             episodeNumber = Integer.parseInt(episodeString.second);
         }
 
+        String episodeTitle = programJsonObject.optString(EPISODE_TITLE);
+
+        String episodeSynopsis = programJsonObject.optString(SYNOPSIS);
+
+
         String videoUrl = tunerUrl + ":5004/" + channel.getId();
 
         InternalProviderData internalProviderData = new InternalProviderData();
         internalProviderData.setVideoType(TvContractUtils.SOURCE_TYPE_HLS);
         internalProviderData.setVideoUrl(videoUrl);
-        Program program = new Program.Builder(channel).build();
+
+        Program program = new Program.Builder(channel)
+                .setStartTimeUtcMillis(startTime)
+                .setEndTimeUtcMillis(endTime)
+                .setTitle(title)
+                .setThumbnailUri(imageUri)
+                .setPosterArtUri(imageUri)
+                .setBroadcastGenres(genres.toArray(new String[genres.size()]))
+                .setEpisodeNumber(episodeNumber)
+                .setSeasonNumber(seasonNumber)
+                .setEpisodeTitle(episodeTitle)
+                .setDescription(episodeSynopsis.substring(0, Math.min(episodeSynopsis.length(), 255)))
+                .setLongDescription(episodeSynopsis)
+                .setInternalProviderData(internalProviderData)
+                .setSearchable(true)
+                .setRecordingProhibited(false)
+                .build();
 
         return program;
     }

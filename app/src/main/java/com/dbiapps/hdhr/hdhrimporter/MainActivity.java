@@ -20,7 +20,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.dbiaps.hdhr.hdhrimporter.R;
+import com.dbiapps.hdhr.hdhrimporter.R;
 
 /**
  * MainActivity class that loads {@link MainFragment}.
