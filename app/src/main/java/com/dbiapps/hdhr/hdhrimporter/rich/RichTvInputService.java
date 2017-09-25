@@ -16,9 +16,13 @@
 
 package com.dbiapps.hdhr.hdhrimporter.rich;
 
+import android.Manifest;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.graphics.Point;
+import android.media.audiofx.EnvironmentalReverb;
 import android.media.tv.TvContentRating;
 import android.media.tv.TvInputInfo;
 import android.media.tv.TvInputManager;
@@ -26,6 +30,7 @@ import android.media.tv.TvInputService;
 import android.media.tv.TvTrackInfo;
 import android.net.Uri;
 import android.os.Build;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.Nullable;
@@ -56,6 +61,14 @@ import com.google.android.media.tv.companionlibrary.BaseTvInputService;
 import com.google.android.media.tv.companionlibrary.EpgSyncJobService;
 import com.google.android.media.tv.companionlibrary.utils.TvContractUtils;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -65,7 +78,7 @@ import java.util.List;
  */
 public class RichTvInputService extends BaseTvInputService {
     private static final String TAG = "RichTvInputService";
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
     private static final long EPG_SYNC_DELAYED_PERIOD_MS = 1000 * 2; // 2 Seconds
 
     private CaptioningManager mCaptioningManager;
@@ -108,6 +121,9 @@ public class RichTvInputService extends BaseTvInputService {
     @Nullable
     @Override
     public TvInputService.RecordingSession onCreateRecordingSession(String inputId) {
+        if (DEBUG) {
+            Log.d(TAG, "onCreateRecordingSession " + inputId);
+        }
         return new RichRecordingSession(this, inputId);
     }
 
@@ -218,6 +234,9 @@ public class RichTvInputService extends BaseTvInputService {
 
         @RequiresApi(api = Build.VERSION_CODES.N)
         public boolean onPlayRecordedProgram(RecordedProgram recordedProgram) {
+            if (DEBUG) {
+                Log.d(TAG, "Attempting to play recorded program " + recordedProgram.getTitle());
+            }
             createPlayer(recordedProgram.getInternalProviderData().getVideoType(),
                     Uri.parse(recordedProgram.getInternalProviderData().getVideoUrl()));
 
@@ -385,42 +404,131 @@ public class RichTvInputService extends BaseTvInputService {
         private static final String TAG = "RecordingSession";
         private String mInputId;
         private long mStartTimeMs;
+        private Context mContext;
+        private String mRecordedFileUri;
+
+        private InputStream mInputStream;
+        private OutputStream mOutputStream;
+
+        private boolean mStopRecordingRequested = false;
 
         public RichRecordingSession(Context context, String inputId) {
             super(context, inputId);
+            mContext = context;
             mInputId = inputId;
+
+            if (DEBUG) {
+                Log.d(TAG, "RichRecordingSession " + inputId);
+            }
         }
 
         @Override
         public void onTune(Uri uri) {
             super.onTune(uri);
+
+            Channel channelToRecord = TvContractUtils.getChannel(mContext.getContentResolver(), uri);
+
+
             if (DEBUG) {
-                Log.d(TAG, "Tune recording session to " + uri);
+                Log.d(TAG, "Tune recording session to " + channelToRecord.getDisplayName());
             }
-            //TODO update tuner count to 2, number of tuners in an HDHR Connect
-            // By default, the number of tuners for this service is one. When a channel is being
-            // recorded, no other channel from this TvInputService will be accessible. Developers
-            // should call notifyError(TvInputManager.RECORDING_ERROR_RESOURCE_BUSY) to alert
-            // the framework that this recording cannot be completed.
-            // Developers can update the tuner count in xml/richtvinputservice or programmatically
-            // by adding it to TvInputInfo.updateTvInputInfo.
+
+            int permissionCheck = mContext.checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE);
+            if (permissionCheck != PackageManager.PERMISSION_GRANTED) {
+                notifyError(TvInputManager.RECORDING_ERROR_UNKNOWN);
+                return;
+            }
+
+
+            if (DEBUG) {
+                Log.d(TAG, "Tune recording session to " + channelToRecord.getDisplayName());
+            }
             notifyTuned(uri);
         }
 
         @Override
         public void onStartRecording(final Uri uri) {
             super.onStartRecording(uri);
-            if (DEBUG) {
-                Log.d(TAG, "onStartRecording");
+
+            Cursor programCursor =
+                    mContext.getContentResolver().query(uri, Program.PROJECTION,
+                            null, null, null);
+
+            if (programCursor == null || !programCursor.moveToNext()) {
+                notifyError(TvInputManager.RECORDING_ERROR_UNKNOWN);
+                return;
             }
+
+            Program programToRecord = Program.fromCursor(programCursor);
+
+            if (DEBUG) {
+                Log.d(TAG, "onStartRecording " + programToRecord.getTitle());
+            }
+
+            File path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_MOVIES);
+            File file = new File(path, createFileName(programToRecord));
+            mRecordedFileUri = file.getAbsolutePath();
+            try {
+                if (file.exists()) {
+                    file.delete();
+                }
+                file.createNewFile();
+                mOutputStream = new FileOutputStream(file);
+
+                HttpURLConnection httpURLConnection = (HttpURLConnection) new URL(programToRecord.getInternalProviderData().getVideoUrl()).openConnection();
+                httpURLConnection.setReadTimeout(3000);
+                httpURLConnection.setConnectTimeout(3000);
+                httpURLConnection.setRequestMethod("GET");
+                httpURLConnection.setDoInput(true);
+                httpURLConnection.connect();
+                int responseCode = httpURLConnection.getResponseCode();
+                if (responseCode != HttpURLConnection.HTTP_OK) {
+                    throw new IOException("HTTP error code: " + responseCode);
+                }
+
+                mInputStream = httpURLConnection.getInputStream();
+
+                byte[] buffer = new byte[1024];
+                int bytesRead;
+                while (((bytesRead = mInputStream.read(buffer)) != -1) && !mStopRecordingRequested) {
+                    mOutputStream.write(buffer, 0, bytesRead);
+                }
+                mOutputStream.flush();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+                try {
+                    mInputStream.close();
+                    mOutputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
             mStartTimeMs = System.currentTimeMillis();
+        }
+
+        private String createFileName(Program program) {
+            String fileName = program.getTitle();
+            fileName += ".S" + program.getSeasonNumber() + "E" + program.getEpisodeNumber();
+            if (program.getEpisodeTitle() != null && !program.getEpisodeTitle().isEmpty()) {
+                fileName += "." + program.getEpisodeTitle();
+            }
+
+            fileName = Uri.encode(fileName).toLowerCase().toString();
+            fileName += ".mpeg";
+
+            return fileName;
         }
 
         @Override
         public void onStopRecording(Program programToRecord) {
+            mStopRecordingRequested = true;
             if (DEBUG) {
-                Log.d(TAG, "onStopRecording");
+                Log.d(TAG, "onStopRecording " + programToRecord.getInternalProviderData().getVideoUrl());
             }
+
             // In this sample app, since all of the content is VOD, the video URL is stored.
             // If the video was live, the start and stop times should be noted using
             // RecordedProgram.Builder.setStartTimeUtcMillis and .setEndTimeUtcMillis.
@@ -432,18 +540,18 @@ public class RichTvInputService extends BaseTvInputService {
             internalProviderData.setRecordingStartTime(mStartTimeMs);
             RecordedProgram recordedProgram = new RecordedProgram.Builder(programToRecord)
                     .setInputId(mInputId)
-                    .setRecordingDataUri(
-                            programToRecord.getInternalProviderData().getVideoUrl())
+                    .setRecordingDataUri(programToRecord.getInternalProviderData().getVideoUrl())
                     .setRecordingDurationMillis(currentTime - mStartTimeMs)
                     .setInternalProviderData(internalProviderData)
-                    .setStartTimeUtcMillis(programToRecord.getStartTimeUtcMillis())
-                    .setEndTimeUtcMillis(programToRecord.getEndTimeUtcMillis())
+                    .setRecordingDataBytes(new File(mRecordedFileUri).length())
+                    .setRecordingDataUri(mRecordedFileUri)
                     .build();
             notifyRecordingStopped(recordedProgram);
         }
 
         @Override
         public void onStopRecordingChannel(Channel channelToRecord) {
+            mStopRecordingRequested = true;
             if (DEBUG) {
                 Log.d(TAG, "onStopRecording");
             }
