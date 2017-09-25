@@ -76,30 +76,45 @@ public class ProgramJsonToObject {
         String episodeSynopsis = programJsonObject.optString(SYNOPSIS);
 
 
-        String videoUrl = tunerUrl + ":5004/auto/v/" + channel.getId();
+        String videoUrl = "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8";//tunerUrl + ":5004/auto/v/" + channel.getDisplayNumber();
 
         InternalProviderData internalProviderData = new InternalProviderData();
         internalProviderData.setVideoType(TvContractUtils.SOURCE_TYPE_HLS);
         internalProviderData.setVideoUrl(videoUrl);
 
-        Program program = new Program.Builder(channel)
-                .setStartTimeUtcMillis(0)
-                .setEndTimeUtcMillis(734*1000)
-                .setTitle(title)
-                .setThumbnailUri(imageUri)
-                .setPosterArtUri(imageUri)
-                .setBroadcastGenres(genres.toArray(new String[genres.size()]))
-                .setEpisodeNumber(episodeNumber)
-                .setSeasonNumber(seasonNumber)
-                .setEpisodeTitle(episodeTitle)
-                .setDescription(episodeSynopsis.substring(0, Math.min(episodeSynopsis.length(), 255)))
-                .setLongDescription(episodeSynopsis)
-                .setInternalProviderData(internalProviderData)
-                .setSearchable(true)
-                .setRecordingProhibited(false)
-                .build();
+        Program.Builder programBuilder = new Program.Builder(channel);
 
-        return program;
+        programBuilder.setStartTimeUtcMillis(0)
+                .setEndTimeUtcMillis(60 * 60 * 1000)
+                .setTitle(title)
+                .setBroadcastGenres(genres.toArray(new String[genres.size()]));
+
+        if (isStringFieldValid(imageUri)) {
+            programBuilder.setThumbnailUri(imageUri)
+                    .setPosterArtUri(imageUri);
+        }
+        ;
+
+        if (episodeNumber > 0 && seasonNumber > 0) {
+            programBuilder.setEpisodeNumber(episodeNumber)
+                    .setSeasonNumber(seasonNumber);
+        }
+
+        if (isStringFieldValid(episodeTitle)) {
+            programBuilder.setEpisodeTitle(episodeTitle);
+        }
+
+        if (isStringFieldValid(episodeSynopsis)) {
+            programBuilder.setDescription(episodeSynopsis.substring(0, Math.min(episodeSynopsis.length(), 255)))
+                    .setLongDescription(episodeSynopsis);
+        }
+        programBuilder.setInternalProviderData(internalProviderData)
+                .setSearchable(true)
+                .setRecordingProhibited(false);
+
+        programBuilder.setChannelId(channel.getOriginalNetworkId());
+
+        return programBuilder.build();
     }
 
     private static Pair<String, String> parseEpisodeAndSeason(String episode) {
@@ -110,6 +125,10 @@ public class ProgramJsonToObject {
 
         return new Pair<>(seasonNumber, episodeNumber);
 
+    }
+
+    private static boolean isStringFieldValid(String fieldValue) {
+        return fieldValue != null && !fieldValue.isEmpty();
     }
 
 }

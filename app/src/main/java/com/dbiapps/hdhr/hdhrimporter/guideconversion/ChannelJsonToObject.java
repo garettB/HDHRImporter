@@ -28,13 +28,17 @@ public class ChannelJsonToObject {
         String affiliateName = channelJsonObject.optString(AFFILIATE_NAME);
         String channelIconUrl = channelJsonObject.optString(CHANNEL_ICON_URL);
 
+        String channelId = "com.dbiapps.hdhr.hdhrimporter." + channelNumber;
+
         Channel channel = new Channel.Builder()
-                .setOriginalNetworkId((int)(Double.parseDouble(channelNumber) * 10))
+                .setOriginalNetworkId(channelId.hashCode())
                 .setDisplayNumber(channelNumber)
                 .setDisplayName(channelName)
                 .setNetworkAffiliation(affiliateName)
                 .setChannelLogo(channelIconUrl)
                 .setServiceType(TvContract.Channels.SERVICE_TYPE_AUDIO_VIDEO)
+                .setTransportStreamId(0)
+                .setServiceId(0)
                 .build();
         return channel;
     }
