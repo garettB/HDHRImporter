@@ -20,6 +20,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.graphics.Point;
 import android.media.tv.TvContentRating;
+import android.media.tv.TvInputInfo;
 import android.media.tv.TvInputManager;
 import android.media.tv.TvInputService;
 import android.media.tv.TvTrackInfo;
@@ -281,7 +282,7 @@ public class RichTvInputService extends BaseTvInputService {
             int trackIndex = getIndexFromTrackId(trackId);
             if (mPlayer != null) {
                 if (type == TvTrackInfo.TYPE_SUBTITLE) {
-                    if (! mCaptionEnabled) {
+                    if (!mCaptionEnabled) {
                         return false;
                     }
                     mSelectedSubtitleTrackIndex = trackIndex;
@@ -353,7 +354,7 @@ public class RichTvInputService extends BaseTvInputService {
 
         @Override
         public void onVideoSizeChanged(int width, int height, int unappliedRotationDegrees,
-                float pixelWidthHeightRatio) {
+                                       float pixelWidthHeightRatio) {
             // Do nothing.
         }
 
@@ -396,6 +397,7 @@ public class RichTvInputService extends BaseTvInputService {
             if (DEBUG) {
                 Log.d(TAG, "Tune recording session to " + uri);
             }
+            //TODO update tuner count to 2, number of tuners in an HDHR Connect
             // By default, the number of tuners for this service is one. When a channel is being
             // recorded, no other channel from this TvInputService will be accessible. Developers
             // should call notifyError(TvInputManager.RECORDING_ERROR_RESOURCE_BUSY) to alert
@@ -429,12 +431,14 @@ public class RichTvInputService extends BaseTvInputService {
             InternalProviderData internalProviderData = programToRecord.getInternalProviderData();
             internalProviderData.setRecordingStartTime(mStartTimeMs);
             RecordedProgram recordedProgram = new RecordedProgram.Builder(programToRecord)
-                        .setInputId(mInputId)
-                        .setRecordingDataUri(
-                                programToRecord.getInternalProviderData().getVideoUrl())
-                        .setRecordingDurationMillis(currentTime - mStartTimeMs)
-                        .setInternalProviderData(internalProviderData)
-                        .build();
+                    .setInputId(mInputId)
+                    .setRecordingDataUri(
+                            programToRecord.getInternalProviderData().getVideoUrl())
+                    .setRecordingDurationMillis(currentTime - mStartTimeMs)
+                    .setInternalProviderData(internalProviderData)
+                    .setStartTimeUtcMillis(programToRecord.getStartTimeUtcMillis())
+                    .setEndTimeUtcMillis(programToRecord.getEndTimeUtcMillis())
+                    .build();
             notifyRecordingStopped(recordedProgram);
         }
 

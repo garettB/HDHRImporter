@@ -1,5 +1,6 @@
 package com.dbiapps.hdhr.hdhrimporter.guideconversion;
 
+import android.media.tv.TvContract;
 import android.util.Pair;
 
 import com.google.android.media.tv.companionlibrary.model.Channel;
@@ -46,19 +47,19 @@ public class ProgramJsonToObject {
     public static String SYNOPSIS = "Synopsis";
 
 
-    static Program convertFromJson(Channel channel, JSONObject programJsonObject, String tunerUrl) throws JSONException {
+    static Program convertFromJson(Channel channel, JSONObject programJsonObject, String tunerUrl) throws JSONException { //TODO pass tuneUrl from a more global config file
         long startTime = programJsonObject.getLong(START_TIME);
         long endTime = programJsonObject.getLong(END_TIME);
         String title = programJsonObject.getString(TITLE);
         String imageUri = programJsonObject.getString(IMAGE_URL);
 
         List<String> genres = new ArrayList<>();
-        genres.add("OTHER");
         JSONArray genresArray = programJsonObject.optJSONArray(GENRES_ARRAY);
         if (genresArray != null) {
             genres.clear();
             for (int i = 0; i < genresArray.length(); ++i) {
-                genres.add(genresArray.getString(i));
+                String convertedGenre = genreMap(genresArray.getString(i));
+                genres.add(convertedGenre);
             }
         }
 
@@ -81,13 +82,21 @@ public class ProgramJsonToObject {
         InternalProviderData internalProviderData = new InternalProviderData();
         internalProviderData.setVideoType(TvContractUtils.SOURCE_TYPE_HLS);
         internalProviderData.setVideoUrl(videoUrl);
+        internalProviderData.setRepeatable(false);
 
         Program.Builder programBuilder = new Program.Builder(channel);
 
-        programBuilder.setStartTimeUtcMillis(0)
-                .setEndTimeUtcMillis(60 * 60 * 1000)
+        programBuilder.setStartTimeUtcMillis((startTime - 1506096000 + 1506349465) * 1000) //TODO Remove test time conversion, just use startTime * 1000
+                .setEndTimeUtcMillis((endTime - 1506096000 + 1506349465) * 1000) //TODO Remove test time conversion, just use endTime * 1000
                 .setTitle(title)
-                .setBroadcastGenres(genres.toArray(new String[genres.size()]));
+                .setChannelId(channel.getOriginalNetworkId())
+                .setInternalProviderData(internalProviderData)
+                .setSearchable(true)
+                .setRecordingProhibited(false);
+
+        if (!genres.isEmpty()) {
+            programBuilder.setBroadcastGenres(genres.toArray(new String[genres.size()]));
+        }
 
         if (isStringFieldValid(imageUri)) {
             programBuilder.setThumbnailUri(imageUri)
@@ -108,11 +117,6 @@ public class ProgramJsonToObject {
             programBuilder.setDescription(episodeSynopsis.substring(0, Math.min(episodeSynopsis.length(), 255)))
                     .setLongDescription(episodeSynopsis);
         }
-        programBuilder.setInternalProviderData(internalProviderData)
-                .setSearchable(true)
-                .setRecordingProhibited(false);
-
-        programBuilder.setChannelId(channel.getOriginalNetworkId());
 
         return programBuilder.build();
     }
@@ -129,6 +133,42 @@ public class ProgramJsonToObject {
 
     private static boolean isStringFieldValid(String fieldValue) {
         return fieldValue != null && !fieldValue.isEmpty();
+    }
+
+    /**
+     * Most genres served up by the HDHR map nicely to those defined by Android TV, but a few (e.g.
+     * Kids) do not, so this does the conversion to help categorize values properly.
+     * @param epgGenre - The Genre defined by the HDHR EPG
+     * @return The genre expected by Android TV, or the epgGenre if we don't know the proper map
+     */
+    private static String genreMap(String epgGenre) {
+        String convertedGenre = epgGenre;
+
+        switch (epgGenre) {
+            case "News":
+                convertedGenre = TvContract.Programs.Genres.NEWS;
+                break;
+            case "Kids":
+                convertedGenre = TvContract.Programs.Genres.FAMILY_KIDS;
+                break;
+            case "Movies":
+                convertedGenre = TvContract.Programs.Genres.MOVIES;
+                break;
+            case "Comedy":
+                convertedGenre = TvContract.Programs.Genres.COMEDY;
+                break;
+            case "Drama":
+                convertedGenre = TvContract.Programs.Genres.DRAMA;
+                break;
+            case "Sports":
+                convertedGenre = TvContract.Programs.Genres.SPORTS;
+                break;
+            case "Food":
+                convertedGenre = TvContract.Programs.Genres.LIFE_STYLE;
+                break;
+        }
+
+        return convertedGenre;
     }
 
 }

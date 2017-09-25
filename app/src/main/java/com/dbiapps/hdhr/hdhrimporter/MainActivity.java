@@ -24,6 +24,8 @@ import com.dbiapps.hdhr.hdhrimporter.R;
 import com.dbiapps.hdhr.hdhrimporter.guideconversion.JsonHdhrTvParser;
 import com.dbiapps.hdhr.hdhrimporter.rich.RichFeedUtil;
 
+import java.util.Date;
+
 /**
  * MainActivity class that loads {@link MainFragment}.
  */
@@ -38,6 +40,7 @@ public class MainActivity extends Activity {
             Log.d("Channels", tvListing.getChannels().size() + "");
             Log.d("Programs", tvListing.getAllPrograms().size() + "");
         }
+        Log.d("CURRENT_TIME", new Date().getTime() + "");
     }
 
     public native String hello();

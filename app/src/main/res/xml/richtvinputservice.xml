@@ -15,4 +15,5 @@
 -->
 <tv-input xmlns:android="http://schemas.android.com/apk/res/android"
     android:canRecord="true"
+    android:tunerCount="2"
     android:setupActivity="com.dbiapps.hdhr.hdhrimporter.rich.RichTvInputSetupActivity" />
